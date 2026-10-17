@@ -1,0 +1,36 @@
+# Stage 04 capture pass — URLs taken from _evidence/CAPTURE_CHECKLIST.md
+# Format: name|url   (name becomes the file name; hub chips read the NN-section token)
+# Deduped by URL. Interaction states (hover, mid-scroll, mid-transition) cannot be
+# reproduced headlessly, so each site is captured in its resting/top state. The
+# checklist remains the record of what a state-by-state pass would add.
+
+01-nav__a2-shrinking-header|https://scroll-driven-animations.style/demos/shrinking-header-shadow/css/
+01-nav__a3-cover-to-fixed-header|https://scroll-driven-animations.style/demos/cover-to-fixed-header/css/
+01-nav__a4-skip-link-national-gallery|https://www.nationalgallery.org.uk/
+01-nav__a6-mobile-nav-moma|https://www.moma.org/
+01-nav__a7-scroll-contain-reuters|https://www.reuters.com/graphics/
+02-scroll__b1-image-reveal|https://scroll-driven-animations.style/demos/image-reveal/css/
+02-scroll__b2-horizontal-section|https://scroll-driven-animations.style/demos/horizontal-section/css/
+02-scroll__b3-stacking-cards|https://scroll-driven-animations.style/demos/stacking-cards/css/
+02-scroll__b4-progress-bar|https://scroll-driven-animations.style/demos/progress-bar/css/
+02-scroll__b5-thumb-progress-loc|https://www.loc.gov/
+02-scroll__b6-snap-carousel-whitney|https://whitney.org/
+02-scroll__b7-scroll-shadows|https://scroll-driven-animations.style/demos/scroll-shadows/css/
+03-hero__c1-loader-cuberto|https://cuberto.com/
+03-hero__c2-hero-parallax-vam|https://www.vam.ac.uk/
+03-hero__c4-preloader-antipattern-magnum|https://www.magnumphotos.com/
+04-button__d1-wipe-button-smk|https://www.smk.dk/en/
+04-button__d3-underline-draw-rijksmuseum|https://www.rijksmuseum.nl/en
+04-button__d4-glow-hover-cleveland|https://www.clevelandart.org/
+05-hover__e1-focus-within-card|https://inclusive-components.design/cards/
+05-hover__e2-focus-parity-arena|https://www.are.na/
+05-hover__f5-editorial-list-hover-darkroom|https://www.darkroom.engineering/
+07-cursor__g3-deepzoom-cursor-artic|https://www.artic.edu/
+08-loading__h1-view-transition-spa|https://mdn.github.io/dom-examples/view-transitions/spa/
+08-loading__h2-view-transition-mpa|https://mdn.github.io/dom-examples/view-transitions/mpa/
+09-section__i1-sequence-markers|https://scroll-driven-animations.style/demos/carousel-with-markers/css/
+09-section__i3-reverse-scroll|https://scroll-driven-animations.style/demos/reverse-scroll/css/
+10-archive__j2-juxtapose|https://juxtapose.knightlab.com/
+10-archive__j3-timelinejs-reference|https://timeline.knightlab.com/
+10-archive__j4-reference-strip|https://openseadragon.github.io/
+13-regional__artx-lagos|https://artxlagos.com/

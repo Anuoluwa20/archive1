@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1160" width="1600" height="1160" role="img" aria-labelledby="tB2 dB2">
+  <title id="tB2">ARCHIVE — Direction B, The Absent Object: marker and void system</title>
+  <desc id="dB2">Marker specimen sheet. Shows the four exhibition rooms as numbered wayfinding markers, a fully specified void worked example with dimension lines, true aspect ratio and a complete wall label carrying object, date, series, maker, holding institution, accession number, rights status, credit line and confidence marker, and the rule that one accent serves the whole building because rooms are distinguished by number and scale rather than by a category colour. Structure only, not final artwork. The object named in the label is not reproduced. No archival imagery is used.</desc>
+  <rect width="1600" height="1160" fill="#14120F"/>
+
+  <text x="80" y="68" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="#D9D3C7">DIRECTION B — THE ABSENT OBJECT · MARKERS</text>
+  <text x="80" y="96" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" fill="#918B7E">Rooms, voids and labels. Structure and behaviour only. No archival imagery is used.</text>
+  <line x1="80" y1="118" x2="1520" y2="118" stroke="#302A22" stroke-width="1"/>
+
+  <!-- 01 rooms -->
+  <text x="80" y="170" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#918B7E">01 — ROOMS · WAYFINDING · NUMBERED AND SCALED, NOT COLOURED</text>
+
+  <text x="80" y="236" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="28" font-weight="700" fill="#C08F35">01</text>
+  <text x="170" y="236" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#D9D3C7">PHOTOGRAPHY</text>
+  <line x1="450" y1="227" x2="710" y2="227" stroke="#D9D3C7" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="760" y="236" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">THE PLATE ROOM · voids at true ratio, dimensioned</text>
+
+  <text x="80" y="306" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="28" font-weight="700" fill="#C08F35">02</text>
+  <text x="170" y="306" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#D9D3C7">MUSIC</text>
+  <line x1="450" y1="297" x2="710" y2="297" stroke="#D9D3C7" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="760" y="306" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">THE LISTENING ROOM · the programme as spatial type</text>
+
+  <text x="80" y="376" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="28" font-weight="700" fill="#C08F35">03</text>
+  <text x="170" y="376" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#D9D3C7">FASHION</text>
+  <line x1="450" y1="367" x2="710" y2="367" stroke="#D9D3C7" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="760" y="376" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">THE HANDLING TABLE · spec labels plus drawn diagrams</text>
+
+  <text x="80" y="446" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="28" font-weight="700" fill="#C08F35">04</text>
+  <text x="170" y="446" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#D9D3C7">DESIGN</text>
+  <line x1="450" y1="437" x2="710" y2="437" stroke="#D9D3C7" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="760" y="446" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">THE POSTER WALL · largest type · one cleared image</text>
+
+  <line x1="80" y1="496" x2="1520" y2="496" stroke="#302A22" stroke-width="1"/>
+
+  <!-- 02 the void -->
+  <text x="80" y="540" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#918B7E">02 — A VOID, SPECIFIED · TRUE ASPECT RATIO, DIMENSIONED, LABELLED</text>
+
+  <rect x="120" y="590" width="520" height="347" fill="#211E19" stroke="#D9D3C7" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="380" y="752" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" fill="#D9D3C7" opacity="0.5">THIS FIELD IS THE WORK'S SIZE</text>
+  <text x="380" y="778" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" fill="#D9D3C7" opacity="0.5">THE WORK IS NOT REPRODUCED</text>
+  <text x="380" y="818" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C08F35">HOLDING · ACCESSION · RIGHTS</text>
+
+  <line x1="120" y1="961" x2="640" y2="961" stroke="#C08F35" stroke-width="1"/>
+  <line x1="120" y1="953" x2="120" y2="969" stroke="#C08F35" stroke-width="1"/>
+  <line x1="640" y1="953" x2="640" y2="969" stroke="#C08F35" stroke-width="1"/>
+  <text x="380" y="990" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C08F35">520 × 347 — TRUE RATIO</text>
+
+  <line x1="664" y1="590" x2="664" y2="937" stroke="#C08F35" stroke-width="1"/>
+  <line x1="656" y1="590" x2="672" y2="590" stroke="#C08F35" stroke-width="1"/>
+  <line x1="656" y1="937" x2="672" y2="937" stroke="#C08F35" stroke-width="1"/>
+  <text x="688" y="760" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C08F35">347</text>
+  <text x="688" y="778" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#918B7E">height</text>
+
+  <!-- label card -->
+  <rect x="760" y="590" width="760" height="347" fill="none" stroke="#D9D3C7" stroke-opacity="0.22" stroke-width="1"/>
+
+  <text x="790" y="630" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">OBJECT</text>
+  <text x="1030" y="630" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">Untitled (Modern Suku)</text>
+
+  <text x="790" y="660" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">DATE</text>
+  <text x="1030" y="660" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">1975</text>
+
+  <text x="790" y="690" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">SERIES</text>
+  <text x="1030" y="690" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">Hairstyles — project begun 1968</text>
+
+  <text x="790" y="720" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">MAKER</text>
+  <text x="1030" y="720" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">J.D. 'Okhai Ojeikere (1930-2014)</text>
+
+  <text x="790" y="750" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">HOLDING</text>
+  <text x="1030" y="750" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">The Metropolitan Museum of Art</text>
+
+  <text x="790" y="780" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">ACCESSION</text>
+  <text x="1030" y="780" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">542418</text>
+
+  <text x="790" y="810" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">RIGHTS</text>
+  <text x="1030" y="810" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C08F35">Not public domain — not reproduced</text>
+
+  <text x="790" y="840" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">CREDIT</text>
+  <text x="1030" y="840" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">Purchase, Joseph and Ceil Mazer Foundation</text>
+  <text x="1030" y="858" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">Inc. Gift, 2010</text>
+
+  <circle cx="1036" cy="896" r="6" fill="#D9D3C7"/>
+  <text x="790" y="900" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">CONFIDENCE</text>
+  <text x="1054" y="900" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#D9D3C7">High — verified via the Met Collection API</text>
+
+  <text x="790" y="926" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">SOURCE</text>
+  <text x="1030" y="926" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#918B7E">collectionapi.metmuseum.org object 542418</text>
+
+  <line x1="80" y1="1020" x2="1520" y2="1020" stroke="#302A22" stroke-width="1"/>
+
+  <!-- 03 colour rule -->
+  <text x="80" y="1062" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#918B7E">03 — COLOUR IS ARCHITECTURAL, NOT CATEGORICAL</text>
+  <text x="80" y="1088" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" fill="#918B7E">ONE ACCENT FOR THE WHOLE BUILDING. FOUR CATEGORY COLOURS IS HOW THE CARD-GRID MUSEUM TEMPLATE HAPPENS.</text>
+  <rect x="80" y="1100" width="60" height="12" fill="#C08F35"/>
+  <text x="156" y="1111" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#918B7E">BENIN BRONZE · THE ONLY ACCENT · CITED: EMOKPAE 1973</text>
+
+  <line x1="80" y1="1130" x2="1520" y2="1130" stroke="#302A22" stroke-width="1"/>
+  <text x="80" y="1152" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#918B7E">Specimen, not final artwork. A void that is not labelled is not a void — it is a bug. Test: can a reader tell deliberate absence from a broken image in two seconds?</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1180" width="1600" height="1180" role="img" aria-labelledby="tA1 dA1">
+  <title id="tA1">ARCHIVE — Direction A, The Masthead: wordmark specimen</title>
+  <desc id="dA1">Specimen sheet for one of three creative directions. Shows the ARCHIVE masthead lockup, its folio and issue line, four registered wordmark states (solid, halftone screen, soft, outline), size tests down to sixteen pixels, a single-colour block test, and the one inverted Newsprint panel. Structure and behaviour only, not final artwork. Set in system font stacks; the production face is Archivo under the SIL Open Font License. No archival imagery is used.</desc>
+
+  <defs>
+    <pattern id="halftoneA" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#0D0E11"/>
+      <circle cx="2" cy="2" r="1.25" fill="#EDE9E1"/>
+    </pattern>
+    <filter id="softA" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="1.8"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1180" fill="#0D0E11"/>
+
+  <!-- header -->
+  <text x="80" y="68" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="#EDE9E1">DIRECTION A — THE MASTHEAD</text>
+  <text x="80" y="96" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" fill="#8F8A80">Wordmark specimen — structure and behaviour only. Production face: Archivo (SIL OFL 1.1). Shown here in a system stack.</text>
+  <line x1="80" y1="118" x2="1520" y2="118" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 01 primary lockup -->
+  <text x="80" y="170" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8F8A80">01 — PRIMARY LOCKUP · ONE COLOUR · ANY SIZE</text>
+  <text x="80" y="392" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="200" font-weight="800" letter-spacing="-6" fill="#EDE9E1">ARCHIVE</text>
+  <line x1="80" y1="428" x2="950" y2="428" stroke="#EDE9E1" stroke-width="2"/>
+  <text x="80" y="466" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="14" letter-spacing="3" fill="#C9C3B7">A DIGITAL MUSEUM OF NIGERIA'S CREATIVE HISTORY</text>
+  <text x="1520" y="466" text-anchor="end" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="14" letter-spacing="3" fill="#BE8B32">VOL. 01 · 1856-2026 · LAGOS</text>
+
+  <!-- 02 registered states -->
+  <text x="80" y="548" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8F8A80">02 — REGISTERED STATES · THE WORDMARK IS NEVER REDRAWN; ONLY ITS STATE CHANGES</text>
+
+  <line x1="80" y1="574" x2="120" y2="574" stroke="#BE8B32" stroke-width="2"/>
+  <text x="80" y="600" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#C9C3B7">01 SOLID</text>
+  <text x="80" y="656" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-2" fill="#EDE9E1">ARCHIVE</text>
+  <text x="80" y="684" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">default · print · reduced motion · 16px</text>
+
+  <line x1="460" y1="574" x2="500" y2="574" stroke="#BE8B32" stroke-width="2"/>
+  <text x="460" y="600" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#C9C3B7">02 SCREEN</text>
+  <text x="460" y="656" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-2" fill="url(#halftoneA)">ARCHIVE</text>
+  <text x="460" y="684" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">the printed record · featured archive</text>
+
+  <line x1="840" y1="574" x2="880" y2="574" stroke="#BE8B32" stroke-width="2"/>
+  <text x="840" y="600" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#C9C3B7">03 SOFT</text>
+  <text x="840" y="656" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-2" fill="#EDE9E1" opacity="0.62" filter="url(#softA)">ARCHIVE</text>
+  <text x="840" y="684" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">attributed · uncertain · memory</text>
+
+  <line x1="1220" y1="574" x2="1260" y2="574" stroke="#BE8B32" stroke-width="2"/>
+  <text x="1220" y="600" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#C9C3B7">04 OUTLINE</text>
+  <text x="1220" y="656" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="-2" fill="none" stroke="#EDE9E1" stroke-width="1.4">ARCHIVE</text>
+  <text x="1220" y="684" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">leads · not yet verified</text>
+
+  <line x1="80" y1="716" x2="1520" y2="716" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 03 size tests -->
+  <text x="80" y="760" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8F8A80">03 — SIZE TESTS · ONE COLOUR</text>
+
+  <text x="80" y="810" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="16" font-weight="800" letter-spacing="-0.5" fill="#EDE9E1">ARCHIVE</text>
+  <text x="80" y="834" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">16 PX · UI FLOOR · STILL SELF-IDENTICAL</text>
+
+  <text x="80" y="874" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="30" font-weight="800" letter-spacing="-1" fill="#EDE9E1">ARCHIVE</text>
+  <text x="80" y="898" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">30 PX · NAV AND SPINE</text>
+
+  <text x="80" y="956" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="52" font-weight="800" letter-spacing="-1.6" fill="#EDE9E1">ARCHIVE</text>
+  <text x="80" y="980" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">52 PX · MOBILE SECTION HEAD</text>
+
+  <rect x="80" y="1008" width="520" height="68" fill="#EDE9E1"/>
+  <text x="104" y="1054" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5" fill="#0D0E11">ARCHIVE</text>
+  <text x="80" y="1094" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">THE BLOCK TEST · LEGIBLE AS MASS</text>
+
+  <!-- 04 inversion -->
+  <rect x="840" y="724" width="680" height="390" fill="#EFEBE2"/>
+  <text x="880" y="764" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#0D0E11" opacity="0.55">04 — INVERSION · NEWSPRINT</text>
+  <text x="880" y="884" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="92" font-weight="800" letter-spacing="-3" fill="#0D0E11">ARCHIVE</text>
+  <line x1="880" y1="910" x2="1299" y2="910" stroke="#0D0E11" stroke-width="2"/>
+  <text x="880" y="946" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#0D0E11" opacity="0.7">USED ONCE — THE FEATURED ARCHIVE SPREAD.</text>
+  <text x="880" y="966" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#0D0E11" opacity="0.7">A PAGE TURN, NOT A PALETTE.</text>
+  <rect x="880" y="996" width="44" height="44" fill="#0D0E11"/>
+  <rect x="944" y="996" width="44" height="44" fill="#BE8B32"/>
+  <rect x="1008" y="996" width="44" height="44" fill="#EDE9E1" stroke="#0D0E11" stroke-width="1"/>
+  <text x="880" y="1062" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="9" fill="#0D0E11" opacity="0.6">PRESS BLACK</text>
+  <text x="944" y="1062" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="9" fill="#0D0E11" opacity="0.6">BENIN BRONZE</text>
+  <text x="1008" y="1062" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="9" fill="#0D0E11" opacity="0.6">BONE</text>
+
+  <!-- footer -->
+  <line x1="80" y1="1140" x2="1520" y2="1140" stroke="#2A2E36" stroke-width="1"/>
+  <text x="80" y="1164" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">Specimen, not final artwork. The wordmark is to be drawn or set in Archivo (SIL OFL 1.1). No archival imagery is used in any ARCHIVE asset.</text>
+</svg>

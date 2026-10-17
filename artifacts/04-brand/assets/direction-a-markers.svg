@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1160" width="1600" height="1160" role="img" aria-labelledby="tA2 dA2">
+  <title id="tA2">ARCHIVE — Direction A, The Masthead: marker system</title>
+  <desc id="dA2">Marker specimen sheet. Shows the four discipline markers as a one-pixel rule plus an eleven-pixel label with its twelve-pixel hover extension, the four confidence markers generated from the content register (high, medium, attributed, unverified), the eight-section folio system, and the single Benin bronze accent with its usage rule. Discipline colour is never used as a fill, badge or card. Structure only, not final artwork. No archival imagery is used.</desc>
+  <rect width="1600" height="1160" fill="#0D0E11"/>
+
+  <text x="80" y="68" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="21" font-weight="700" letter-spacing="3" fill="#EDE9E1">DIRECTION A — THE MASTHEAD · MARKERS</text>
+  <text x="80" y="96" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" fill="#8F8A80">Discipline markers, confidence markers, folios and the single accent. Structure and behaviour only.</text>
+  <line x1="80" y1="118" x2="1520" y2="118" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 01 discipline markers -->
+  <text x="80" y="170" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8F8A80">01 — DISCIPLINE MARKERS · 1PX RULE + 11PX LABEL · NEVER A FILL, BADGE OR ICON</text>
+
+  <text x="80" y="240" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="20" font-weight="700" fill="#8F8A80">01</text>
+  <text x="150" y="240" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#EDE9E1">PHOTOGRAPHY</text>
+  <line x1="430" y1="234" x2="650" y2="234" stroke="#8E9BA3" stroke-width="1"/>
+  <line x1="690" y1="234" x2="890" y2="234" stroke="#8E9BA3" stroke-width="1"/>
+  <line x1="890" y1="234" x2="902" y2="234" stroke="#8E9BA3" stroke-width="1" opacity="0.45"/>
+  <text x="690" y="256" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="9" fill="#8F8A80">HOVER / FOCUS +12 PX</text>
+  <text x="950" y="240" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">PLATE SECTION · measured field, caption, accession, rights</text>
+
+  <text x="80" y="320" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="20" font-weight="700" fill="#8F8A80">02</text>
+  <text x="150" y="320" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#EDE9E1">MUSIC</text>
+  <line x1="430" y1="314" x2="650" y2="314" stroke="#BE8B32" stroke-width="1"/>
+  <line x1="690" y1="314" x2="890" y2="314" stroke="#BE8B32" stroke-width="1"/>
+  <line x1="890" y1="314" x2="902" y2="314" stroke="#BE8B32" stroke-width="1" opacity="0.45"/>
+  <text x="690" y="336" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="9" fill="#8F8A80">HOVER / FOCUS +12 PX</text>
+  <text x="950" y="320" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">SIDE A / SIDE B · numbered rows; lineage second</text>
+
+  <text x="80" y="400" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="20" font-weight="700" fill="#8F8A80">03</text>
+  <text x="150" y="400" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#EDE9E1">FASHION</text>
+  <line x1="430" y1="394" x2="650" y2="394" stroke="#6C86B4" stroke-width="1"/>
+  <line x1="690" y1="394" x2="890" y2="394" stroke="#6C86B4" stroke-width="1"/>
+  <line x1="890" y1="394" x2="902" y2="394" stroke="#6C86B4" stroke-width="1" opacity="0.45"/>
+  <text x="690" y="416" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="9" fill="#8F8A80">HOVER / FOCUS +12 PX</text>
+  <text x="950" y="400" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">SPEC SHEET · object, date, holding, accession</text>
+
+  <text x="80" y="480" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="20" font-weight="700" fill="#8F8A80">04</text>
+  <text x="150" y="480" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2.6" fill="#EDE9E1">DESIGN</text>
+  <line x1="430" y1="474" x2="650" y2="474" stroke="#A8432C" stroke-width="1"/>
+  <line x1="690" y1="474" x2="890" y2="474" stroke="#A8432C" stroke-width="1"/>
+  <line x1="890" y1="474" x2="902" y2="474" stroke="#A8432C" stroke-width="1" opacity="0.45"/>
+  <text x="690" y="496" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="9" fill="#8F8A80">HOVER / FOCUS +12 PX</text>
+  <text x="950" y="480" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">COLOPHON · poster type against a flat credit block</text>
+
+  <line x1="80" y1="524" x2="1520" y2="524" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 02 confidence markers -->
+  <text x="80" y="568" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8F8A80">02 — CONFIDENCE MARKERS · GENERATED FROM THE CONTENT REGISTER · NEVER SET BY HAND</text>
+  <text x="80" y="592" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">This is how the design enforces SKU 8: the marker is produced by the entry's confidence field, not by a designer's judgement at build time.</text>
+
+  <circle cx="96" cy="644" r="9" fill="#EDE9E1"/>
+  <text x="150" y="650" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#EDE9E1">HIGH</text>
+  <text x="430" y="650" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">solid · 100%</text>
+  <text x="760" y="650" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C9C3B7">the line, with no hedging</text>
+  <text x="1180" y="650" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">institution-corroborated</text>
+
+  <circle cx="96" cy="704" r="9" fill="none" stroke="#EDE9E1" stroke-width="1.4"/>
+  <path d="M96,695 A9,9 0 0,0 96,713 Z" fill="#EDE9E1"/>
+  <text x="150" y="710" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#EDE9E1">MEDIUM</text>
+  <text x="430" y="710" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">screen · 62% dot</text>
+  <text x="760" y="710" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C9C3B7">same type, screened marker</text>
+  <text x="1180" y="710" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">sourced, with qualifiers</text>
+
+  <circle cx="96" cy="764" r="9" fill="none" stroke="#C9C3B7" stroke-width="1.4"/>
+  <text x="150" y="770" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#EDE9E1">ATTRIBUTED</text>
+  <text x="430" y="770" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">outline · no fill</text>
+  <text x="760" y="770" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C9C3B7">copy reads: described by X as...</text>
+  <text x="1180" y="770" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">single-source claims</text>
+
+  <circle cx="96" cy="824" r="9" fill="none" stroke="#A8432C" stroke-width="1.4"/>
+  <line x1="89" y1="817" x2="103" y2="831" stroke="#A8432C" stroke-width="1.4"/>
+  <text x="150" y="830" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" font-weight="700" fill="#EDE9E1">UNVERIFIED</text>
+  <text x="430" y="830" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8F8A80">struck</text>
+  <text x="760" y="830" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#C9C3B7">not on the page</text>
+  <text x="1180" y="830" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#A8432C">appendix only — never shipped</text>
+
+  <line x1="80" y1="874" x2="1520" y2="874" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 03 folios -->
+  <text x="80" y="918" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8F8A80">03 — FOLIOS · THE SPINE IS ALSO THE NAVIGATION</text>
+  <text x="80" y="962" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">01 NAVIGATION</text>
+  <text x="440" y="962" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">02 HERO</text>
+  <text x="800" y="962" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">03 FEATURED ARCHIVE (SPREAD)</text>
+  <text x="1160" y="962" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">04 DISCIPLINES</text>
+  <text x="80" y="992" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">05 STORIES THROUGH TIME (CONTENTS)</text>
+  <text x="440" y="992" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">06 SPOTLIGHT</text>
+  <text x="800" y="992" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">07 CLOSING (COLOPHON)</text>
+  <text x="1160" y="992" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="1.2" fill="#8F8A80">08 FOOTER</text>
+
+  <line x1="80" y1="1026" x2="1520" y2="1026" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 04 accent -->
+  <text x="80" y="1068" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8F8A80">04 — ACCENT · BENIN BRONZE #BE8B32 · FOCUS RING, ACTIVE NAV, CTA, THE ONE CLEARED IMAGE. NOTHING ELSE.</text>
+  <rect x="80" y="1086" width="60" height="12" fill="#BE8B32"/>
+  <text x="156" y="1097" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">CITED: EMOKPAE'S 1973 BRONZE REPLICA OF THE BENIN IVORY MASK OF QUEEN IDIA</text>
+
+  <line x1="80" y1="1124" x2="1520" y2="1124" stroke="#2A2E36" stroke-width="1"/>
+  <text x="80" y="1148" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8F8A80">Specimen, not final artwork. Discipline colour appears as a rule and a label only — never as a fill, badge or card.</text>
+</svg>

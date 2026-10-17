@@ -1,0 +1,80 @@
+{
+  "title": "Default Project",
+  "port": 10002,
+  "projectRoot": "..",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "group": "Start here",
+      "label": "Overview",
+      "lede": "What this project is, where it stands, and who is doing what.",
+      "docs": ["README.md", "pipeline.md"]
+    },
+    {
+      "id": "brief",
+      "title": "Project brief",
+      "group": "Research",
+      "lede": "The project knowledge document every agent reads first.",
+      "docs": ["artifacts/00-sku/SKU.md"]
+    },
+    {
+      "id": "competitors",
+      "title": "Competitor research",
+      "group": "Research",
+      "lede": "Who else is in the space and what the benchmark sites do.",
+      "docs": ["artifacts/01-competitors/COMPETITOR_RESEARCH.md"]
+    },
+    {
+      "id": "content",
+      "title": "Content register",
+      "group": "Research",
+      "label": "Content",
+      "lede": "Verified historical facts with a source for every claim, plus rights notes.",
+      "docs": ["artifacts/07-content/CONTENT_REGISTER.md"]
+    },
+    {
+      "id": "references",
+      "title": "Reference library",
+      "group": "Research",
+      "lede": "Visual references collected for the build.",
+      "docs": ["artifacts/02-inspiration/INSPIRATION_LIBRARY.md"],
+      "dir": "artifacts/references/screenshots"
+    },
+    {
+      "id": "interactions",
+      "title": "Interaction library",
+      "group": "Research",
+      "lede": "Categorized motion and interaction patterns.",
+      "docs": ["artifacts/03-interactions/INTERACTION_LIBRARY.md"],
+      "dir": "artifacts/03-interactions/screenshots"
+    },
+    {
+      "id": "brand",
+      "title": "Brand direction",
+      "group": "Design",
+      "label": "Brand",
+      "lede": "Logo research, the creative directions built from it, and the brand system document.",
+      "docs": ["artifacts/04-brand/LOGO_RESEARCH.md", "artifacts/04-brand/BRAND_DIRECTIONS.md"],
+      "page": "artifacts/04-brand/document/index.html"
+    },
+    {
+      "id": "production",
+      "title": "Production",
+      "group": "Design",
+      "lede": "The landing page and how it was built. Interaction build and visual refinement are the remaining stages.",
+      "docs": [
+        "artifacts/05-production/WEBSITE_BUILD.md"
+      ],
+      "dir": "artifacts/05-production/screenshots",
+      "page": "artifacts/05-production/site/index.html"
+    },
+    {
+      "id": "progress",
+      "title": "Progress",
+      "group": "Status",
+      "lede": "The observer agent's running updates.",
+      "docs": ["artifacts/06-progress/PROGRESS_LOG.md"]
+    }
+  ]
+}

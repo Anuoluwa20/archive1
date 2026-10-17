@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARCHIVE — Creative Directions · Brand System Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* =====================================================================
+   Brand system document — SKINNO standard.
+   Change ONLY the :root colour tokens below. Do not touch the fonts,
+   sizes, spacing or layout.
+   ===================================================================== */
+:root {
+  --brand: #0D0E11;          /* title + ink on the sheet            */
+  --accent: #BE8B32;         /* square bullets, rules, small marks  */
+  --panel: #0D0E11;          /* hero panel background               */
+  --panel-ink: #EFEBE2;      /* hero panel text                     */
+  --panel-hi: #BE8B32;       /* hero panel highlight line           */
+
+  --desk: #08090B;
+  --sheet: #ffffff;
+  --muted: #6B665E;
+  --hair: #E4E0D8;
+  --sheet-w: 1440px;
+  --sheet-h: 860px;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--desk);
+  color: #fff;
+  font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ------------------------------------------------------------------ top bar */
+.topbar {
+  position: fixed; inset: 0 0 auto 0; z-index: 30;
+  display: flex; align-items: center; gap: 16px;
+  padding: 13px 22px;
+  background: rgba(11, 11, 13, .82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+.topbar .who { font-size: 11px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: rgba(255, 255, 255, .62); }
+.topbar .grow { flex: 1; }
+.topbar .doc { color: #fff; font-size: 15px; font-weight: 600; }
+
+/* ------------------------------------------------------------------ buttons */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  height: 42px; padding: 0 20px;
+  border-radius: 999px; cursor: pointer;
+  font: inherit; font-size: 13px; font-weight: 500; text-decoration: none;
+  white-space: nowrap; border: 1px solid transparent;
+}
+.btn.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
+.btn.primary:hover { filter: brightness(1.18); }
+.btn.ghost { background: transparent; color: var(--brand); border-color: var(--hair); }
+.btn.ghost:hover { border-color: var(--brand); }
+.topbar .btn { height: 36px; font-size: 12px; background: #fff; color: #0b0b0d; border-color: #fff; }
+.topbar .btn:hover { filter: none; background: rgba(255, 255, 255, .86); }
+
+/* ------------------------------------------------------------------ sheets */
+.deck { padding: 92px 0 120px; }
+.stage { --s: 1; width: calc(var(--sheet-w) * var(--s)); height: calc(var(--sheet-h) * var(--s)); margin: 0 auto 34px; overflow: hidden; }
+
+.sheet {
+  position: relative;
+  width: var(--sheet-w); height: var(--sheet-h);
+  background: var(--sheet); color: var(--brand);
+  border-radius: 28px;
+  padding: 40px 56px 48px;
+  transform: scale(var(--s)); transform-origin: top left;
+  display: flex; flex-direction: column;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .45);
+}
+
+/* running header */
+.run { display: flex; align-items: baseline; gap: 24px; padding-bottom: 14px; border-bottom: 1px solid var(--hair); }
+.run .l, .run .c { font-size: 12px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+.run .c { flex: 1; text-align: center; }
+.run .r { font-size: 18px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--brand); }
+
+/* 50 / 50 split */
+.split { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 64px; padding-top: 46px; min-height: 0; }
+.left { display: flex; flex-direction: column; }
+.right { display: flex; flex-direction: column; gap: 26px; min-height: 0; }
+
+.title {
+  margin: 0;
+  font-family: "Bricolage Grotesque", "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+  font-weight: 800; text-transform: uppercase;
+  font-size: clamp(44px, 6.6vw, 104px);
+  line-height: .9; letter-spacing: -.045em;
+  color: var(--brand);
+}
+.lede { margin: 22px 0 0; max-width: 46ch; font-size: 15px; line-height: 1.6; color: var(--muted); }
+.actions { margin-top: auto; display: flex; gap: 12px; flex-wrap: wrap; padding-top: 34px; }
+
+/* two bullet columns */
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.state { margin: 0 0 12px; font-size: 13px; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; color: var(--brand); }
+.col ul { margin: 0; padding: 0; list-style: none; }
+.col li {
+  position: relative; padding-left: 15px; margin-bottom: 8px;
+  font-size: 12px; font-weight: 500; letter-spacing: .07em; text-transform: uppercase;
+  line-height: 1.5; color: var(--muted);
+}
+.col li::before { content: ""; position: absolute; left: 0; top: 6px; width: 4px; height: 4px; background: var(--accent); }
+
+/* big panel */
+.panel { flex: 1; min-height: 0; border-radius: 18px; overflow: hidden; display: flex; }
+.panel.hero { background: var(--panel); color: var(--panel-ink); padding: 34px 36px; flex-direction: column; }
+.panel.hero .mark { width: 54px; height: 54px; }
+.panel.hero .bline { margin-top: 14px; font-size: 11px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; color: var(--panel-ink); opacity: .7; }
+.panel.hero .big { margin-top: auto; font-family: "Bricolage Grotesque", Helvetica, Arial, sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: -.03em; line-height: .95; font-size: 40px; color: var(--panel-hi); }
+
+.panel.paper { background: #f4f1ea; align-items: center; justify-content: center; position: relative; }
+.panel.paper::before {
+  content: ""; position: absolute; inset: 0;
+  background-image: linear-gradient(rgba(20, 17, 15, .08) 1px, transparent 1px), linear-gradient(90deg, rgba(20, 17, 15, .08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.panel.paper .grid-art { position: relative; display: flex; align-items: center; gap: 26px; }
+.panel.paper .note { position: absolute; left: 22px; bottom: 18px; font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: rgba(20, 17, 15, .45); }
+
+.panel.lockups { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--hair); border: 1px solid var(--hair); }
+.panel.lockups .cell { background: #fff; display: flex; align-items: center; justify-content: center; }
+.panel.lockups .cell.dark { background: var(--panel); color: var(--panel-ink); }
+.panel.lockups .cell.accent { background: var(--accent); color: #fff; }
+
+/* cover */
+.cover-title { font-family: "Bricolage Grotesque", Helvetica, Arial, sans-serif; font-weight: 800; text-transform: uppercase; letter-spacing: -.045em; line-height: .9; font-size: clamp(44px, 6.6vw, 104px); margin: 0; }
+.cover-list { margin: 0; padding: 0; list-style: none; }
+.cover-list li { display: flex; align-items: baseline; gap: 14px; padding: 11px 0; border-bottom: 1px solid var(--hair); }
+.cover-list .n { font-size: 11px; font-weight: 600; letter-spacing: .14em; color: var(--accent); width: 34px; }
+.cover-list .t { font-size: 15px; font-weight: 500; }
+.cover-list .d { margin-left: auto; font-size: 12px; color: var(--muted); }
+
+/* utilities */
+.mark { width: 44px; height: 44px; display: block; }
+.muted { color: var(--muted); }
+
+/* ------------------------------------------------------------------ print */
+@page { size: 1440px 860px; margin: 0; }
+@media print {
+  body { background: #fff; }
+  .topbar, .actions { display: none !important; }
+  .deck { padding: 0; }
+  .stage { --s: 1 !important; width: auto; height: auto; margin: 0; overflow: visible; }
+  .sheet { transform: none !important; border-radius: 0; box-shadow: none; break-after: page; page-break-after: always; }
+  .sheet:last-child { break-after: auto; page-break-after: auto; }
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="who">Brand system document</span>
+  <span class="doc" data-brand-name>ARCHIVE</span>
+  <div class="grow"></div>
+  <a class="btn" data-download="all">Download everything</a>
+</div>
+
+<div class="deck" id="deck">
+
+  <!-- ======================================================== cover -->
+  <div class="stage"><section class="sheet cover">
+    <header class="run">
+      <span class="l">Brand system document</span>
+      <span class="c">01 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="cover-title">Creative<br>Directions</h1>
+        <p class="lede">Three identity directions for ARCHIVE — a digital museum of Nigeria's creative history — each argued, compared and costed, followed by the one recommended for the build. Specimens are structural: they show how each system behaves, not final artwork.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="all">Download everything</a>
+          <a class="btn ghost" data-download="pdf" data-item="all">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <ol class="cover-list">
+          <li><span class="n">01</span><span class="t">The Masthead</span><span class="d">Concept · States · Markers</span></li>
+          <li><span class="n">02</span><span class="t">The Absent Object</span><span class="d">Concept · Space</span></li>
+          <li><span class="n">03</span><span class="t">The Signal</span><span class="d">Concept · States</span></li>
+          <li><span class="n">04</span><span class="t">Recommendation</span><span class="d">The direction to take forward</span></li>
+        </ol>
+        <div class="panel hero">
+          <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="12" width="36" height="4" fill="currentColor"/><rect x="6" y="22" width="36" height="4" fill="currentColor"/><rect x="6" y="32" width="22" height="4" fill="currentColor"/></svg>
+          <div class="bline">Archive · creative directions</div>
+          <div class="big">One wordmark.<br>Four states.</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ==================================================== A · concept -->
+  <div class="stage"><section class="sheet d1">
+    <header class="run">
+      <span class="l">Archive · Direction A</span>
+      <span class="c">02 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">Direction<br>A</h1>
+        <p class="lede">ARCHIVE is published, not exhibited. A dark, type-led cultural publication whose masthead, folio line, issue number and credit columns do the work that photographs would normally do. It borrows authority from the magazine shelf rather than the museum vitrine — which is where the research locates the tone this audience already trusts.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="zip" data-item="01">Download SVG + PNG</a>
+          <a class="btn ghost" data-download="pdf" data-item="01">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">The proposition</p>
+            <ul>
+              <li>Published, not exhibited</li>
+              <li>Type carries the culture</li>
+              <li>Credits are the design</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">What carries it</p>
+            <ul>
+              <li>Masthead and folio</li>
+              <li>Honesty markers</li>
+              <li>Plate sections</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel hero">
+          <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="12" width="36" height="4" fill="currentColor"/><rect x="6" y="22" width="36" height="4" fill="currentColor"/><rect x="6" y="32" width="22" height="4" fill="currentColor"/></svg>
+          <div class="bline">Direction A · The Masthead</div>
+          <div class="big">Published,<br>not exhibited.</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ==================================================== A · systems -->
+  <div class="stage"><section class="sheet d1">
+    <header class="run">
+      <span class="l">Archive · Direction A</span>
+      <span class="c">03 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">Four<br>states</h1>
+        <p class="lede">The wordmark is never redrawn — only its state changes. Four registered states, finite and named. The state encodes how much the page trusts a claim, so the design system itself carries the honesty rule the project is built on.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="zip" data-item="01">Download SVG + PNG</a>
+          <a class="btn ghost" data-download="pdf" data-item="01">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">Registered states</p>
+            <ul>
+              <li>01 Solid · default, print, 16px</li>
+              <li>02 Screen · featured archive</li>
+              <li>03 Soft · uncertain material</li>
+              <li>04 Outline · leads only</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">Production face</p>
+            <ul>
+              <li>Archivo · SIL OFL 1.1</li>
+              <li>Charis SIL · running text</li>
+              <li>Space Mono · the catalogue layer</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel paper">
+          <div class="grid-art">
+            <img src="../assets/direction-a-wordmark.svg" alt="Direction A wordmark specimen: the ARCHIVE masthead, its folio line, one-colour and 16px tests, the four registered states, and the inverted variant." style="width:100%;height:auto;display:block;margin-bottom:40px">
+          </div>
+          <div class="note">Specimen · structure and behaviour, not final artwork</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ==================================================== A · markers -->
+  <div class="stage"><section class="sheet d1">
+    <header class="run">
+      <span class="l">Archive · Direction A</span>
+      <span class="c">04 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">Markers</h1>
+        <p class="lede">Discipline markers are a one-pixel rule and a label — never a fill, never an icon. Confidence markers are generated from the content register, never by hand, so a claim cannot be presented as stronger than its source.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="zip" data-item="01">Download SVG + PNG</a>
+          <a class="btn ghost" data-download="pdf" data-item="01">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">Confidence</p>
+            <ul>
+              <li>High · corroborated</li>
+              <li>Medium · single source</li>
+              <li>Attributed · third-party claim</li>
+              <li>Unverified · not on the page</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">Disciplines</p>
+            <ul>
+              <li>Photography</li>
+              <li>Music</li>
+              <li>Fashion</li>
+              <li>Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel paper">
+          <div class="grid-art">
+            <img src="../assets/direction-a-markers.svg" alt="Direction A marker system: four discipline markers as rule-and-label pairs, four confidence markers with their meanings, the eight-section folio system, and the brass accent rule." style="width:100%;height:auto;display:block;margin-bottom:40px">
+          </div>
+          <div class="note">Specimen · markers and folio, not final artwork</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ==================================================== B · concept -->
+  <div class="stage"><section class="sheet d2">
+    <header class="run">
+      <span class="l">Archive · Direction B</span>
+      <span class="c">05 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">Direction<br>B</h1>
+        <p class="lede">ARCHIVE is a room built around what it cannot show. Every absence is titled, dated, measured and attributed, so the institution abstracts its own space rather than the cultures it holds. The most interesting of the three documents, and the one that centres the limitation instead of the work.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="zip" data-item="02">Download SVG + PNG</a>
+          <a class="btn ghost" data-download="pdf" data-item="02">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">The proposition</p>
+            <ul>
+              <li>A room, not a page</li>
+              <li>Absence is the subject</li>
+              <li>Every void is named</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">Risk</p>
+            <ul>
+              <li>One reading only</li>
+              <li>Copy-heavy, no writer budgeted</li>
+              <li>Worst path at 75% finished</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel hero">
+          <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="6" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2"/><line x1="6" y1="24" x2="42" y2="24" stroke="currentColor" stroke-width="2"/></svg>
+          <div class="bline">Direction B · The Absent Object</div>
+          <div class="big">A room around<br>an absence.</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ==================================================== B · system -->
+  <div class="stage"><section class="sheet d2">
+    <header class="run">
+      <span class="l">Archive · Direction B</span>
+      <span class="c">06 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">Absent<br>objects</h1>
+        <p class="lede">A hairline-framed lockup in a wall-label register, with measured voids that carry aspect ratio, dimension lines and the holding institution. Its one transferable idea — never let an absence be silent — is imported into the recommended direction, where it costs almost nothing.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="zip" data-item="02">Download SVG + PNG</a>
+          <a class="btn ghost" data-download="pdf" data-item="02">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">Register</p>
+            <ul>
+              <li>Hairline frame</li>
+              <li>High contrast</li>
+              <li>Label, not headline</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">Ground</p>
+            <ul>
+              <li>Warm black</li>
+              <li>Measured voids</li>
+              <li>Wayfinding numbers</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel paper">
+          <div class="grid-art">
+            <img src="../assets/direction-b-wordmark.svg" alt="Direction B wordmark specimen: the hairline-framed lockup, wall-label subtitle, void-dimension variant, one-colour and 16px tests, and the exhibition-line variant." style="width:100%;height:auto;display:block;margin-bottom:40px">
+          </div>
+          <div class="note">Specimen · structure and behaviour, not final artwork</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ==================================================== C · concept -->
+  <div class="stage"><section class="sheet d3">
+    <header class="run">
+      <span class="l">Archive · Direction C</span>
+      <span class="c">07 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">Direction<br>C</h1>
+        <p class="lede">ARCHIVE is a transmission that never stopped. One invariant re-ordered across time is the identity, built on a citable Nigerian principle: Uli practice holds the vocabulary fixed and makes the ordering the creative act. The strongest historical argument of the three, and the hardest to build accessibly.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="zip" data-item="03">Download SVG + PNG</a>
+          <a class="btn ghost" data-download="pdf" data-item="03">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">The proposition</p>
+            <ul>
+              <li>A live instrument</li>
+              <li>Fixed vocabulary, variable order</li>
+              <li>The time axis is the layout</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">Risk</p>
+            <ul>
+              <li>Not buildable to standard</li>
+              <li>Hardest to make accessible</li>
+              <li>Living sign system as interface</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel hero">
+          <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="12" cy="24" r="4" fill="currentColor"/><circle cx="24" cy="24" r="4" fill="currentColor"/><circle cx="36" cy="24" r="4" fill="currentColor"/><line x1="6" y1="36" x2="42" y2="36" stroke="currentColor" stroke-width="2"/></svg>
+          <div class="bline">Direction C · The Signal</div>
+          <div class="big">A transmission<br>that never stopped.</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ==================================================== C · system -->
+  <div class="stage"><section class="sheet d3">
+    <header class="run">
+      <span class="l">Archive · Direction C</span>
+      <span class="c">08 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">The<br>signal</h1>
+        <p class="lede">The wordmark in true dot-screen states, across three era registers, on an axis ticked 1856 · 1958 · 1961 · 1968 · 1977 · 2026. Its best contributions — registered states as the identity mechanic, and a marker system for the disciplines — are absorbed into the recommended direction without its build and cultural risk.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="zip" data-item="03">Download SVG + PNG</a>
+          <a class="btn ghost" data-download="pdf" data-item="03">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">Mechanic</p>
+            <ul>
+              <li>True dot-screen states</li>
+              <li>Three era registers</li>
+              <li>Ordering is the identity</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">Guard</p>
+            <ul>
+              <li>No mark without meaning</li>
+              <li>Meaning must be sourced</li>
+              <li>Undocumented marks unclaimed</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel paper">
+          <div class="grid-art">
+            <img src="../assets/direction-c-wordmark.svg" alt="Direction C wordmark specimen: the wordmark in dot-screen states, three era registers, an axis with dated ticks, one-colour and 16px tests." style="width:100%;height:auto;display:block;margin-bottom:40px">
+          </div>
+          <div class="note">Specimen · structure and behaviour, not final artwork</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+  <!-- ================================================ recommendation -->
+  <div class="stage"><section class="sheet drec">
+    <header class="run">
+      <span class="l">Archive · Recommendation</span>
+      <span class="c">09 / 09</span>
+      <span class="r">Archive</span>
+    </header>
+    <div class="split">
+      <div class="left">
+        <h1 class="title">Recom&shy;mend&shy;ation</h1>
+        <p class="lede">Take Direction A — The Masthead — forward, with two imports: the absence policy from B, and the registered-state and marker mechanics from C. A is the only direction that wins on both halves of the same decision: distinctive and culturally grounded, and buildable, accessible and usable by one person inside the budget.</p>
+        <div class="actions">
+          <a class="btn primary" data-download="all">Download everything</a>
+          <a class="btn ghost" data-download="pdf" data-item="all">Export PDF</a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="cols">
+          <div class="col">
+            <p class="state">Take forward</p>
+            <ul>
+              <li>A · The Masthead</li>
+              <li>+ B's absence policy</li>
+              <li>+ C's states and markers</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="state">Why</p>
+            <ul>
+              <li>Survives being unfinished</li>
+              <li>Turns the rights limit into a feature</li>
+              <li>Makes the honesty rule enforceable</li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel hero">
+          <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="12" width="36" height="4" fill="currentColor"/><rect x="6" y="22" width="36" height="4" fill="currentColor"/><rect x="6" y="32" width="22" height="4" fill="currentColor"/></svg>
+          <div class="bline">Archive · recommendation</div>
+          <div class="big">Take A<br>forward.</div>
+        </div>
+      </div>
+    </div>
+  </section></div>
+
+</div>
+
+<script>
+/* ---------------------------------------------------------------------
+   Colours: change --brand, --accent, --panel, --panel-ink, --panel-hi
+   in :root above. Nothing else.
+
+   Downloads: the buttons point at <docdir>/downloads/, named
+   <slug>-<item>.zip / .pdf and <slug>-all.zip.
+   --------------------------------------------------------------------- */
+const SLUG = 'archive-directions';
+
+document.querySelectorAll('.btn').forEach((b) => {
+  const kind = b.dataset.download;
+  if (!kind) return;
+  const item = b.dataset.item ?? 'all';
+  if (kind === 'pdf') {
+    b.href = 'downloads/' + SLUG + '-' + (item === 'all' ? 'all' : item) + '.pdf';
+  } else {
+    b.href = 'downloads/' + SLUG + (item === 'all' ? '-all' : '-' + item) + '.zip';
+  }
+  b.setAttribute('download', '');
+});
+
+/* ?dir=N isolates every sheet of item N — used for per-item PDF export. */
+const dir = new URLSearchParams(location.search).get('dir');
+if (dir) {
+  document.querySelectorAll('.sheet').forEach((s) => {
+    if (!s.classList.contains('d' + dir)) s.closest('.stage')?.remove();
+  });
+}
+
+/* One sheet per screen: scale each sheet to fit the viewport. */
+function fit() {
+  const pad = 56;
+  const w = Math.min(window.innerWidth - pad, 1440);
+  const h = window.innerHeight - 140;
+  const s = Math.min(1, w / 1440, h / 860);
+  document.querySelectorAll('.stage').forEach((st) => st.style.setProperty('--s', String(s)));
+}
+if (!dir) { window.addEventListener('resize', fit); fit(); }
+</script>
+</body>
+</html>

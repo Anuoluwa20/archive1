@@ -1,0 +1,1393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARCHIVE — A digital museum of Nigeria's creative history</title>
+<meta name="description" content="ARCHIVE is a digital museum of Nigeria's creative history across Photography, Music, Fashion and Design. Every claim is sourced; every absence is named.">
+<meta name="color-scheme" content="dark">
+
+<link rel="preload" href="fonts/archivo-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/charis-sil-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js');try{if(localStorage.getItem('archive-motion')==='reduce'){document.documentElement.setAttribute('data-motion','reduce');}}catch(e){}</script>
+
+<style>
+/* Self-hosted, SIL OFL. Latin subset. Replaces the Google Fonts request. */
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/archivo-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:500; font-display:swap; src:url("fonts/archivo-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:700; font-display:swap; src:url("fonts/archivo-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:800; font-display:swap; src:url("fonts/archivo-latin-800-normal.woff2") format("woff2")}
+@font-face{font-family:"Charis SIL"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/charis-sil-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Charis SIL"; font-style:normal; font-weight:700; font-display:swap; src:url("fonts/charis-sil-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Charis SIL"; font-style:italic; font-weight:400; font-display:swap; src:url("fonts/charis-sil-latin-400-italic.woff2") format("woff2")}
+@font-face{font-family:"Space Mono"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/space-mono-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Space Mono"; font-style:normal; font-weight:700; font-display:swap; src:url("fonts/space-mono-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/inter-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter"; font-style:normal; font-weight:500; font-display:swap; src:url("fonts/inter-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter"; font-style:normal; font-weight:600; font-display:swap; src:url("fonts/inter-latin-600-normal.woff2") format("woff2")}
+/* Latin Extended (Yoruba subdot letters such as ṣ and ọ) */
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/archivo-latin-ext-400-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:500; font-display:swap; src:url("fonts/archivo-latin-ext-500-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:700; font-display:swap; src:url("fonts/archivo-latin-ext-700-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Archivo"; font-style:normal; font-weight:800; font-display:swap; src:url("fonts/archivo-latin-ext-800-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Charis SIL"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/charis-sil-latin-ext-400-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Charis SIL"; font-style:normal; font-weight:700; font-display:swap; src:url("fonts/charis-sil-latin-ext-700-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Charis SIL"; font-style:italic; font-weight:400; font-display:swap; src:url("fonts/charis-sil-latin-ext-400-italic.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Space Mono"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/space-mono-latin-ext-400-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Space Mono"; font-style:normal; font-weight:700; font-display:swap; src:url("fonts/space-mono-latin-ext-700-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Inter"; font-style:normal; font-weight:400; font-display:swap; src:url("fonts/inter-latin-ext-400-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Inter"; font-style:normal; font-weight:500; font-display:swap; src:url("fonts/inter-latin-ext-500-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Inter"; font-style:normal; font-weight:600; font-display:swap; src:url("fonts/inter-latin-ext-600-normal.woff2") format("woff2"); unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+/* =====================================================================
+   ARCHIVE — Direction A, "The Masthead".
+   Tokens are taken verbatim from BRAND_DIRECTIONS.md §7. Do not invent
+   colours, type sizes or motion values outside this block.
+   ===================================================================== */
+:root{
+  --font-display: Archivo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-text:    "Charis SIL", Charis, "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-mono:    "Space Mono", "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --font-ui:      Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Surfaces */
+  --ink-900:#0D0E11; --ink-800:#14161A; --ink-700:#1C1F25; --ink-600:#2A2E36;
+  --paper-000:#EFEBE2;
+  /* Ink */
+  --bone-100:#EDE9E1; --bone-300:#C9C3B7; --bone-500:#8F8A80;
+  /* Vat */
+  --vat-700:#16233C; --vat-500:#2C4570; --vat-300:#6C86B4;
+  /* Accent */
+  --brass-500:#BE8B32; --oxide-500:#A8432C;
+  /* Discipline markers — rules and labels only, never text, never fills */
+  --d-photo:#8E9BA3; --d-music:#BE8B32; --d-fashion:#6C86B4; --d-design:#A8432C;
+
+  --text:var(--bone-100); --text-muted:var(--bone-300); --text-meta:var(--bone-500);
+  --oxide-text:color-mix(in srgb, var(--oxide-500) 65%, var(--bone-100)); /* oxide as TEXT: 3.2:1 fails AA, this derived tint passes */
+  --rule:var(--ink-600); --focus-ring:var(--brass-500); --excluded:var(--oxide-500);
+
+  /* Type scale */
+  --fs-3xs:0.6875rem; --fs-2xs:0.75rem; --fs-xs:0.875rem; --fs-sm:1rem;
+  --fs-body:clamp(1.0625rem, 0.35vw + 1rem, 1.1875rem);
+  --fs-standfirst:clamp(1.25rem, 0.6vw + 1.1rem, 1.5rem);
+  --fs-h3:clamp(1.5rem, 1.2vw + 1.2rem, 2rem);
+  --fs-h2:clamp(2rem, 2.2vw + 1.4rem, 3rem);
+  --fs-h1:clamp(2.75rem, 4vw + 1.5rem, 4.75rem);
+  --fs-masthead:clamp(3rem, 13vw, 12.5rem);
+
+  /* Spacing / layout */
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px;
+  --s-7:48px; --s-8:64px; --s-9:96px; --s-10:128px; --s-11:192px;
+  --section-y:clamp(4rem, 9vw, 9rem);
+  --gutter:clamp(16px, 2vw, 32px);
+  --pg-margin:clamp(20px, 5vw, 96px);
+  --max-w:1440px; --measure:68ch; --rail-w:56px;
+
+  --r-0:0px; --r-1:2px; --r-pill:999px;
+  --rule-hair:1px; --rule-strong:2px;
+
+  /* Motion */
+  --dur-1:120ms; --dur-2:240ms; --dur-3:420ms; --dur-4:720ms; --dur-5:1200ms;
+  --ease-standard:cubic-bezier(.2,.6,.2,1);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --ease-in-out:cubic-bezier(.65,0,.35,1);
+  --ease-press:cubic-bezier(.3,1.4,.4,1);
+  --motion-shift:12px; --stagger:60ms;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--ink-900); color:var(--text);
+  font-family:var(--font-ui); font-size:var(--fs-sm); line-height:1.4;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+@media (min-width:900px){ body{padding-left:var(--rail-w)} }
+
+h1,h2,h3,h4,p,figure,dl,dd,dt,ul,ol,blockquote{margin:0}
+ul,ol{padding:0; list-style:none}
+a{color:inherit}
+img,svg{display:block; max-width:100%}
+button{font:inherit; color:inherit; background:none; border:0; cursor:pointer}
+
+:focus-visible{outline:var(--rule-strong) solid var(--focus-ring); outline-offset:2px}
+::selection{background:var(--brass-500); color:var(--ink-900)}
+
+.skip{
+  position:absolute; left:-9999px; top:0; z-index:100;
+  background:var(--brass-500); color:var(--ink-900);
+  padding:var(--s-3) var(--s-5); font-family:var(--font-mono); font-size:var(--fs-2xs);
+  letter-spacing:.14em; text-transform:uppercase;
+}
+.skip:focus{left:var(--s-4); top:var(--s-4)}
+
+/* ---------------------------------------------------------------- spine */
+.spine{
+  position:fixed; inset:0 auto 0 0; width:var(--rail-w); z-index:40;
+  border-right:var(--rule-hair) solid var(--rule);
+  background:var(--ink-900);
+  display:none; flex-direction:column; align-items:center; justify-content:space-between;
+  padding:var(--s-5) 0;
+}
+@media (min-width:900px){ .spine{display:flex} }
+.spine__mark{
+  writing-mode:vertical-rl; text-orientation:mixed;
+  font-family:var(--font-mono); font-size:var(--fs-3xs); font-weight:700;
+  letter-spacing:.34em; text-transform:uppercase; color:var(--bone-100);
+}
+.spine__folio{
+  writing-mode:vertical-rl;
+  font-family:var(--font-mono); font-size:var(--fs-3xs);
+  letter-spacing:.24em; text-transform:uppercase; color:var(--text-meta);
+  font-variant-numeric:tabular-nums;
+}
+.spine__state{
+  writing-mode:vertical-rl;
+  font-family:var(--font-mono); font-size:var(--fs-3xs);
+  letter-spacing:.24em; text-transform:uppercase; color:var(--brass-500);
+}
+
+/* ----------------------------------------------------------------- nav */
+.bar{
+  position:relative;
+  display:flex; align-items:center; gap:var(--s-5);
+  padding:var(--s-4) var(--pg-margin);
+  background:color-mix(in srgb, var(--ink-900) 88%, transparent);
+  -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px);
+  border-bottom:var(--rule-hair) solid var(--rule);
+}
+.bar__brand{
+  font-family:var(--font-display); font-weight:800; font-size:1.0625rem;
+  letter-spacing:-.02em; text-transform:uppercase; text-decoration:none;
+  color:var(--bone-100); padding:var(--s-2) 0;
+}
+.bar__spacer{flex:1}
+.bar__nav{display:none; gap:var(--s-5)}
+@media (min-width:1040px){ .bar__nav{display:flex} }
+.bar__nav a{
+  font-family:var(--font-mono); font-size:var(--fs-2xs); letter-spacing:.14em;
+  text-transform:uppercase; text-decoration:none; color:var(--text-muted);
+  padding:var(--s-2) 0; border-bottom:var(--rule-hair) solid transparent;
+  transition:color var(--dur-1) var(--ease-standard), border-color var(--dur-2) var(--ease-standard);
+}
+.bar__nav a:hover,.bar__nav a:focus-visible{color:var(--bone-100); border-bottom-color:var(--brass-500)}
+.bar__toggle{
+  font-family:var(--font-mono); font-size:var(--fs-2xs); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--text-muted);
+  border:var(--rule-hair) solid var(--rule); border-radius:var(--r-1);
+  padding:var(--s-2) var(--s-3);
+}
+@media (min-width:1040px){ .bar__toggle{display:none} }
+.drawer{
+  border-bottom:var(--rule-hair) solid var(--rule); background:var(--ink-800);
+  padding:var(--s-4) var(--pg-margin) var(--s-5);
+}
+.drawer[hidden]{display:none}
+.drawer a{
+  display:block; padding:var(--s-3) 0; text-decoration:none;
+  font-family:var(--font-mono); font-size:var(--fs-2xs); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--text-muted);
+  border-bottom:var(--rule-hair) solid var(--rule);
+}
+.drawer a:hover,.drawer a:focus-visible{color:var(--bone-100)}
+
+/* ------------------------------------------------------------ structure */
+.wrap{max-width:var(--max-w); margin-inline:auto; padding-inline:var(--pg-margin)}
+section{padding-block:var(--section-y); border-top:var(--rule-hair) solid var(--rule)}
+section:first-of-type{border-top:0}
+
+.eyebrow{
+  display:flex; align-items:baseline; gap:var(--s-3);
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.2em;
+  text-transform:uppercase; color:var(--text-meta);
+  font-variant-numeric:tabular-nums;
+}
+.eyebrow::after{content:""; flex:1; border-top:var(--rule-hair) solid var(--rule)}
+.eyebrow b{color:var(--brass-500); font-weight:400}
+
+h2.sec{
+  font-family:var(--font-display); font-weight:800; font-size:var(--fs-h2);
+  letter-spacing:-.02em; line-height:1; text-transform:uppercase;
+  margin-top:var(--s-5); max-width:22ch;
+}
+h3.sub{
+  font-family:var(--font-display); font-weight:700; font-size:var(--fs-h3);
+  letter-spacing:-.01em; line-height:1.15;
+}
+.standfirst{
+  font-family:var(--font-text); font-size:var(--fs-standfirst); line-height:1.35;
+  letter-spacing:-.005em; color:var(--bone-100); max-width:var(--measure);
+  margin-top:var(--s-5);
+}
+.body{
+  font-family:var(--font-text); font-size:var(--fs-body); line-height:1.55;
+  max-width:var(--measure); color:var(--text-muted); margin-top:var(--s-5);
+}
+.body strong{color:var(--bone-100); font-weight:700}
+.body a{color:var(--bone-100); text-decoration:underline; text-decoration-color:var(--brass-500); text-underline-offset:3px}
+.meta{
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--text-meta);
+  font-variant-numeric:tabular-nums;
+}
+
+/* --------------------------------------------------------- wordmark states */
+.wm{
+  font-family:var(--font-display); font-weight:800; text-transform:uppercase;
+  letter-spacing:-.03em; line-height:.9; display:inline-block;
+}
+.wm--solid{color:var(--bone-100)}
+.wm--screen{
+  color:transparent;
+  background-image:radial-gradient(var(--bone-100) 1.1px, transparent 1.2px);
+  background-size:4px 4px; -webkit-background-clip:text; background-clip:text;
+}
+.wm--soft{color:var(--bone-100); opacity:.42}
+.wm--outline{color:transparent; -webkit-text-stroke:1.5px var(--bone-100)}
+
+/* ------------------------------------------------------------------ hero */
+.hero{padding-block:clamp(3rem,7vw,7rem) var(--section-y); border-top:0}
+.hero__folio{
+  display:flex; flex-wrap:wrap; gap:var(--s-3) var(--s-5);
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.2em;
+  text-transform:uppercase; color:var(--text-meta);
+  padding-bottom:var(--s-4); border-bottom:var(--rule-hair) solid var(--rule);
+}
+.hero__folio b{color:var(--brass-500); font-weight:400}
+.hero__mast{margin-top:clamp(1.5rem,4vw,3rem)}
+.hero__mast .wm{font-size:var(--fs-masthead); font-weight:700}
+@media (min-width:900px){ .hero__mast .wm{font-weight:800} }
+.hero__rule{border-top:var(--rule-strong) solid var(--bone-100); margin-top:var(--s-4)}
+.hero__strap{
+  display:flex; flex-wrap:wrap; gap:var(--s-3) var(--s-5); justify-content:space-between;
+  margin-top:var(--s-4);
+  font-family:var(--font-mono); font-size:var(--fs-xs); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--text-muted);
+}
+.hero__strap b{color:var(--brass-500); font-weight:400}
+.hero__grid{display:grid; gap:var(--s-7); margin-top:clamp(2rem,5vw,4rem); align-items:start}
+@media (min-width:900px){ .hero__grid{grid-template-columns:1.15fr .85fr; gap:var(--s-9)} }
+.hero__principle{
+  border-left:var(--rule-strong) solid var(--brass-500);
+  padding-left:var(--s-5); margin-top:var(--s-6);
+  font-family:var(--font-text); font-size:var(--fs-standfirst); line-height:1.35;
+  color:var(--bone-100); max-width:34ch;
+}
+.hero__actions{display:flex; flex-wrap:wrap; gap:var(--s-3); margin-top:var(--s-7); align-items:center}
+.btn{
+  display:inline-flex; align-items:center; gap:var(--s-2);
+  font-family:var(--font-mono); font-size:var(--fs-2xs); letter-spacing:.14em;
+  text-transform:uppercase; text-decoration:none;
+  padding:var(--s-4) var(--s-6); border-radius:var(--r-pill);
+  border:var(--rule-hair) solid var(--brass-500);
+  background:var(--brass-500); color:var(--ink-900); font-weight:700;
+  transition:transform var(--dur-1) var(--ease-standard), opacity var(--dur-1) var(--ease-standard);
+}
+.btn:hover{opacity:.88}
+.btn:active{transform:translateY(1px)}
+.btn--quiet{background:transparent; color:var(--bone-100); border-color:var(--rule)}
+.btn--quiet:hover{border-color:var(--brass-500); color:var(--bone-100)}
+
+/* state legend */
+.legend{
+  border:var(--rule-hair) solid var(--rule); border-radius:var(--r-1);
+  padding:var(--s-5); background:var(--ink-800);
+}
+.legend h4{
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.2em;
+  text-transform:uppercase; color:var(--text-meta); font-weight:400;
+}
+.legend ul{margin-top:var(--s-4); display:grid; gap:var(--s-3)}
+.legend li{display:flex; gap:var(--s-3); align-items:baseline}
+.legend .k{
+  font-family:var(--font-mono); font-size:var(--fs-2xs); color:var(--brass-500);
+  min-width:3.5em;
+}
+.legend .v{font-family:var(--font-text); font-size:var(--fs-xs); color:var(--text-muted); line-height:1.5}
+
+/* ---------------------------------------------------------------- plates */
+.plates{display:grid; gap:var(--s-7); margin-top:var(--s-8)}
+@media (min-width:760px){ .plates{grid-template-columns:repeat(2,1fr)} }
+@media (min-width:1200px){ .plates{grid-template-columns:repeat(3,1fr)} }
+
+.plate{border:var(--rule-hair) solid var(--rule); display:flex; flex-direction:column}
+.plate__field{
+  aspect-ratio:4/3; position:relative; overflow:hidden;
+  background:var(--ink-700); border-bottom:var(--rule-hair) solid var(--rule);
+}
+/* The generated field. It is a diagram, never a stand-in for a photograph. */
+.plate__field::before{
+  content:""; position:absolute; inset:0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 11px, rgba(237,233,225,.055) 11px 12px),
+    repeating-linear-gradient(90deg, transparent 0 11px, rgba(237,233,225,.055) 11px 12px);
+}
+.plate__field::after{
+  content:""; position:absolute; inset:18%;
+  border:var(--rule-hair) solid rgba(237,233,225,.22);
+}
+.plate[data-state="screen"] .plate__field::after{
+  background-image:radial-gradient(rgba(237,233,225,.5) 1px, transparent 1.1px);
+  background-size:5px 5px; border-color:transparent;
+}
+.plate[data-state="soft"] .plate__field::after{filter:blur(3px); opacity:.6}
+.plate[data-state="outline"] .plate__field::after{background:none; border-style:dashed}
+.plate__no{
+  position:absolute; left:var(--s-4); top:var(--s-4); z-index:1;
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.2em;
+  color:var(--brass-500);
+}
+.plate__nodata{
+  position:absolute; left:var(--s-4); bottom:var(--s-4); right:var(--s-4); z-index:1;
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.16em;
+  text-transform:uppercase; color:var(--text-meta); line-height:1.6;
+}
+.plate__body{padding:var(--s-5); display:flex; flex-direction:column; gap:var(--s-4); flex:1}
+.plate__title{
+  font-family:var(--font-display); font-weight:700; font-size:1.0625rem;
+  line-height:1.2; letter-spacing:-.01em;
+}
+.plate__title i{font-family:var(--font-text); font-style:italic; font-weight:400}
+.plate dl{display:grid; grid-template-columns:auto 1fr; gap:var(--s-2) var(--s-4); margin-top:auto}
+.plate dt{
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--text-meta);
+}
+.plate dd{font-family:var(--font-text); font-size:var(--fs-xs); color:var(--text-muted); line-height:1.5}
+.plate dd[data-rights="no"]{color:var(--oxide-text)}
+.plate dd[data-rights="yes"]{color:var(--brass-500)}
+.conf{font-family:var(--font-mono); font-size:var(--fs-2xs)}
+
+/* ----------------------------------------------------------- disciplines */
+.disc{display:grid; gap:0; margin-top:var(--s-8); border-top:var(--rule-hair) solid var(--rule)}
+.disc__row{
+  display:grid; gap:var(--s-5); padding-block:var(--s-7);
+  border-bottom:var(--rule-hair) solid var(--rule);
+  align-items:start;
+}
+@media (min-width:900px){
+  .disc__row{grid-template-columns:minmax(0,.42fr) minmax(0,1fr); gap:var(--s-9)}
+}
+.disc__mark{
+  display:flex; align-items:center; gap:var(--s-3);
+  font-family:var(--font-mono); font-size:var(--fs-2xs); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--text-muted);
+}
+.disc__mark::before{
+  content:""; display:block; width:28px; border-top:var(--rule-hair) solid currentColor;
+  transition:width var(--dur-2) var(--ease-standard);
+}
+.disc__row:hover .disc__mark::before,
+.disc__row:focus-within .disc__mark::before{width:40px}
+.disc__row[data-d="photo"] .disc__mark{color:var(--d-photo)}
+.disc__row[data-d="music"] .disc__mark{color:var(--d-music)}
+.disc__row[data-d="fashion"] .disc__mark{color:var(--d-fashion)}
+.disc__row[data-d="design"] .disc__mark{color:var(--oxide-text)}
+.disc__name{
+  font-family:var(--font-display); font-weight:800; font-size:var(--fs-h1);
+  letter-spacing:-.02em; line-height:.95; text-transform:uppercase; margin-top:var(--s-3);
+}
+.disc__count{
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.16em;
+  text-transform:uppercase; color:var(--text-meta); margin-top:var(--s-3);
+  font-variant-numeric:tabular-nums;
+}
+.disc__facts{display:grid; gap:var(--s-5)}
+.fact{border-left:var(--rule-hair) solid var(--rule); padding-left:var(--s-5)}
+.fact__when{
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.16em;
+  text-transform:uppercase; color:var(--text-meta); font-variant-numeric:tabular-nums;
+}
+.fact__what{
+  font-family:var(--font-text); font-size:var(--fs-xs); line-height:1.6;
+  color:var(--text-muted); margin-top:var(--s-2);
+}
+.fact__what b{color:var(--bone-100); font-weight:700}
+
+/* -------------------------------------------------------------- timeline */
+.spine-tl{margin-top:var(--s-8); border-top:var(--rule-hair) solid var(--rule)}
+.tl__item{
+  display:grid; gap:var(--s-3) var(--s-6); padding-block:var(--s-5);
+  border-bottom:var(--rule-hair) solid var(--rule); align-items:baseline;
+  grid-template-columns:1fr;
+}
+@media (min-width:760px){ .tl__item{grid-template-columns:7.5rem minmax(0,1fr) auto} }
+.tl__year{
+  font-family:var(--font-display); font-weight:800; font-size:1.375rem;
+  letter-spacing:-.01em; color:var(--bone-100); font-variant-numeric:tabular-nums;
+}
+.tl__text{font-family:var(--font-text); font-size:var(--fs-xs); line-height:1.6; color:var(--text-muted)}
+.tl__text b{color:var(--bone-100); font-weight:700}
+.tl__d{
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.14em;
+  text-transform:uppercase; color:var(--text-meta); white-space:nowrap;
+}
+.tl__item--flag .tl__year{color:var(--brass-500)}
+
+/* ------------------------------------------------------------- spotlight */
+.spot{display:grid; gap:var(--s-8); margin-top:var(--s-8)}
+@media (min-width:900px){ .spot{grid-template-columns:1fr .78fr; gap:var(--s-9)} }
+.spot__pull{
+  font-family:var(--font-text); font-size:var(--fs-standfirst); line-height:1.35;
+  border-left:var(--rule-strong) solid var(--brass-500); padding-left:var(--s-5);
+  color:var(--bone-100); margin-top:var(--s-6);
+}
+.holdings{margin-top:var(--s-7); display:grid; gap:var(--s-4)}
+.holding{
+  display:grid; grid-template-columns:auto 1fr; gap:var(--s-4);
+  padding-block:var(--s-4); border-top:var(--rule-hair) solid var(--rule);
+}
+.holding__n{font-family:var(--font-mono); font-size:var(--fs-2xs); color:var(--brass-500)}
+.holding__t{font-family:var(--font-text); font-size:var(--fs-xs); line-height:1.55; color:var(--text-muted)}
+.holding__t b{color:var(--bone-100); font-weight:700}
+
+/* --------------------------------------------------------------- honesty */
+.honest{
+  border:var(--rule-hair) solid var(--rule); border-radius:var(--r-1);
+  background:var(--ink-800); padding:clamp(var(--s-5),3vw,var(--s-8));
+  margin-top:var(--s-8);
+}
+.honest h3{color:var(--bone-100)}
+.honest .body{color:var(--text-muted)}
+.honest ul{margin-top:var(--s-5); display:grid; gap:var(--s-4)}
+.honest li{
+  display:grid; gap:var(--s-2); padding-left:var(--s-5); position:relative;
+  font-family:var(--font-text); font-size:var(--fs-xs); line-height:1.6; color:var(--text-muted);
+}
+.honest li::before{content:"—"; position:absolute; left:0; color:var(--oxide-500)}
+.honest li b{color:var(--bone-100); font-weight:700}
+
+/* ----------------------------------------------------------------- close */
+.close{text-align:left}
+.close .wm{font-size:clamp(2rem,7vw,5.5rem); font-weight:800}
+.close__grid{display:grid; gap:var(--s-7); margin-top:var(--s-7)}
+@media (min-width:900px){ .close__grid{grid-template-columns:1.1fr .9fr; gap:var(--s-9)} }
+
+/* ---------------------------------------------------------------- footer */
+footer{border-top:var(--rule-hair) solid var(--rule); padding-block:var(--s-9) var(--s-8); background:var(--ink-800)}
+.foot{display:grid; gap:var(--s-8)}
+@media (min-width:760px){ .foot{grid-template-columns:1.4fr 1fr 1fr} }
+@media (min-width:1200px){ .foot{grid-template-columns:1.6fr 1fr 1fr 1fr} }
+.foot h4{
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.2em;
+  text-transform:uppercase; color:var(--text-meta); font-weight:400;
+  padding-bottom:var(--s-3); border-bottom:var(--rule-hair) solid var(--rule);
+}
+.foot ul{margin-top:var(--s-4); display:grid; gap:var(--s-3)}
+.foot a{text-decoration:none; color:var(--text-muted); font-family:var(--font-text); font-size:var(--fs-xs); line-height:1.5}
+.foot a:hover,.foot a:focus-visible{color:var(--bone-100); text-decoration:underline; text-decoration-color:var(--brass-500); text-underline-offset:3px}
+.foot .body{font-size:var(--fs-xs); margin-top:var(--s-4)}
+.colophon{
+  margin-top:var(--s-9); padding-top:var(--s-5);
+  border-top:var(--rule-hair) solid var(--rule);
+  display:flex; flex-wrap:wrap; gap:var(--s-4) var(--s-6); justify-content:space-between;
+}
+.colophon p{font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.14em; text-transform:uppercase; color:var(--text-meta)}
+
+/* ------------------------------------------------------- entrance motion */
+/* Hidden only when JS is present to reveal it. Without JS everything is
+   visible — an entrance animation must never be load-bearing. */
+.js .reveal{opacity:0; transform:translateY(var(--motion-shift))}
+.js .reveal.is-in{
+  opacity:1; transform:none;
+  transition:opacity var(--dur-4) var(--ease-out), transform var(--dur-4) var(--ease-out);
+  transition-delay:calc(var(--i,0) * var(--stagger));
+}
+@keyframes register{
+  0%,22%   {opacity:1}
+  25%,47%  {opacity:.42}
+  50%,72%  {opacity:1}
+  75%,97%  {opacity:1}
+}
+/* ------------------------------------------------ stage 06 · interaction build
+   Selections from INTERACTION_LIBRARY.md §3 (ids in brackets). Tokens only —
+   no new colours. Every :hover has its :focus-visible twin in the same rule. */
+:focus-visible{outline:var(--rule-strong) solid var(--focus-ring); outline-offset:2px; box-shadow:0 0 0 2px var(--ink-900)} /* [E3] two-tone ring */
+[id]{scroll-margin-top:var(--s-9)}                                   /* [A5] anchors clear the sticky bar */
+@media (prefers-reduced-motion:no-preference){ html:not([data-motion="reduce"]){scroll-behavior:smooth} } /* [A5] opt-in */
+.sr{position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap}
+
+/* [A2] scroll-shrink bar, [I1] current section marked in the nav */
+.bar{transition:padding var(--dur-2) var(--ease-standard), border-color var(--dur-2) var(--ease-standard)}
+header[data-scrolled="true"] .bar{padding-block:var(--s-2); border-bottom-color:var(--brass-500)}
+.bar__nav a[aria-current="true"]{color:var(--bone-100); border-bottom-color:var(--brass-500)}
+
+/* [C6+K1] hero entry: masthead, rule and strap resolve in sequence. Opacity and
+   transform only. Nothing here carries meaning; without JS it is all visible. */
+@keyframes enter-up{from{opacity:0; transform:translateY(var(--motion-shift))}}
+@keyframes rule-draw{from{transform:scaleX(0)}}
+@media (prefers-reduced-motion:no-preference){
+  html.js:not([data-motion="reduce"]) .hero__mast{animation:enter-up var(--dur-5) var(--ease-out) both}
+  html.js:not([data-motion="reduce"]) .hero__rule{transform-origin:left; animation:rule-draw var(--dur-5) var(--ease-in-out) 240ms both}
+  html.js:not([data-motion="reduce"]) .hero__strap span{animation:enter-up var(--dur-4) var(--ease-out) both}
+  html.js:not([data-motion="reduce"]) .hero__strap span:nth-child(2){animation-delay:calc(var(--stagger) * 2)}
+}
+
+/* [B1] plate fields are revealed by a clip-path wipe as they enter the viewport.
+   Caption stays uncropped and readable at all times. */
+.js .plate.reveal .plate__field{clip-path:inset(0 0 100% 0)}
+.js .plate.reveal.is-in .plate__field{clip-path:inset(0); transition:clip-path var(--dur-5) var(--ease-in-out); transition-delay:calc(var(--i,0) * var(--stagger))}
+
+/* [D1] directional wipe on the quiet button; hover and focus identical */
+.btn--quiet{
+  background-image:linear-gradient(var(--brass-500), var(--brass-500));
+  background-repeat:no-repeat; background-position:left center; background-size:0% 100%;
+  transition:background-size var(--dur-3) var(--ease-out), color var(--dur-2) var(--ease-standard), border-color var(--dur-2) var(--ease-standard);
+}
+.btn--quiet:focus-visible{background-size:100% 100%; color:var(--ink-900); border-color:var(--brass-500)}
+@media (hover:hover){ .btn--quiet:hover{background-size:100% 100%; color:var(--ink-900); border-color:var(--brass-500); opacity:1} } /* [E5] */
+
+/* [D5] copy citation */
+.plate__cite{
+  margin:var(--s-4); align-self:flex-start; cursor:pointer;
+  font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.14em; text-transform:uppercase;
+  color:var(--text-muted); background:transparent; border:var(--rule-hair) solid var(--rule); padding:var(--s-2) var(--s-4);
+  transition:color var(--dur-1) var(--ease-standard), border-color var(--dur-1) var(--ease-standard);
+}
+.plate__cite:focus-visible{color:var(--bone-100); border-color:var(--brass-500)}
+@media (hover:hover){ .plate__cite:hover{color:var(--bone-100); border-color:var(--brass-500)} }
+
+/* [K4] visible reduce-motion switch */
+.motion-toggle{cursor:pointer; padding:var(--s-2) var(--s-4)}
+.motion-toggle[aria-pressed="true"]{border-color:var(--brass-500); color:var(--brass-500)}
+
+/* the bar must be sticky relative to the page, so the sticky element is <header> itself */
+body>header{position:sticky; top:0; z-index:50}
+/* ------------------------------------------------ [B2+K2] pinned era rail
+   The ONE pinned section on the page. Built by JS only at >=900x720 and when
+   motion is allowed; otherwise the plain vertical list below it stays as is. */
+.era{position:relative; margin-top:var(--s-8)}
+.era__stick{position:sticky; top:var(--bar-h,64px); height:calc(100vh - var(--bar-h,64px)); overflow:hidden; display:flex; flex-direction:column; gap:var(--s-5); padding-top:var(--s-5)}
+.era__index{display:flex; flex-wrap:wrap; gap:var(--s-2) var(--s-6); list-style:none; padding:0; margin:0}
+.era__index a{
+  display:inline-block; padding-block:var(--s-2); text-decoration:none; border-bottom:2px solid transparent;
+  font-family:var(--font-mono); font-size:var(--fs-2xs); letter-spacing:.14em; text-transform:uppercase; color:var(--text-meta);
+  transition:color var(--dur-2) var(--ease-standard), border-color var(--dur-2) var(--ease-standard);
+}
+.era__index a:focus-visible,.era__index a[aria-current="step"]{color:var(--bone-100); border-bottom-color:var(--brass-500)}
+@media (hover:hover){ .era__index a:hover{color:var(--bone-100); border-bottom-color:var(--brass-500)} }
+.era__prog{height:2px; background:var(--rule); flex:none}
+.era__prog i{display:block; height:100%; background:var(--brass-500); transform-origin:left; transform:scaleX(var(--p,0))}
+.era__track{display:flex; gap:var(--s-8); flex:1; min-height:0; will-change:transform; padding-right:20vw}
+.era__panel{flex:0 0 min(78vw,760px); border-top:var(--rule-strong) solid var(--bone-100); padding-top:var(--s-5); min-height:0}
+.era__panel h3{font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:-.03em; line-height:.95; font-size:var(--fs-h2)}
+.era__panel .era__meta{font-family:var(--font-mono); font-size:var(--fs-3xs); letter-spacing:.14em; text-transform:uppercase; color:var(--text-meta); margin:var(--s-2) 0 var(--s-4)}
+.era__panel .tl__item{grid-template-columns:5.5rem minmax(0,1fr); padding-block:var(--s-3)}
+.era__panel .tl__d{grid-column:2}
+
+/* ------------------------------------------------ stage 06 · visual refinement */
+/* WCAG 2.2 target size: controls reach 44px; inline link lists reach 24px+ */
+.bar__toggle,.plate__cite,.motion-toggle{min-height:44px}
+.foot li a,.foot a{display:inline-block; padding-block:var(--s-2)}
+.drawer a{display:block; padding-block:var(--s-3)}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    animation-duration:1ms !important; animation-iteration-count:1 !important;
+    transition-duration:1ms !important; scroll-behavior:auto !important;
+  }
+  .js .reveal{opacity:1 !important; transform:none !important}
+  .wm{animation:none !important}
+  .js .plate.reveal .plate__field{clip-path:none !important}
+  .hero__mast,.hero__rule,.hero__strap span{animation:none !important}
+  .btn--quiet{transition:none}
+}
+html[data-motion="reduce"] *,html[data-motion="reduce"] *::before,html[data-motion="reduce"] *::after{
+  animation:none !important; transition-duration:1ms !important; scroll-behavior:auto !important;
+}
+html[data-motion="reduce"] .js .reveal,html[data-motion="reduce"].js .reveal{opacity:1 !important; transform:none !important}
+html[data-motion="reduce"].js .plate.reveal .plate__field{clip-path:none !important}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============================================================== spine -->
+<aside class="spine" aria-hidden="true">
+  <span class="spine__mark">Archive · Vol. 01</span>
+  <span class="spine__folio" id="spineFolio">01 / 08</span>
+  <span class="spine__state" id="spineState">State 01 · Solid</span>
+</aside>
+
+<!-- ================================================================ nav -->
+<header>
+  <div class="bar">
+    <a class="bar__brand" href="#top">Archive</a>
+    <span class="bar__spacer"></span>
+    <nav class="bar__nav" aria-label="Sections">
+      <a href="#photography">Photography</a>
+      <a href="#music">Music</a>
+      <a href="#fashion">Fashion</a>
+      <a href="#design">Design</a>
+      <a href="#stories">Stories</a>
+      <a href="#spotlight">Spotlight</a>
+    </nav>
+    <button class="bar__toggle" id="navToggle" aria-expanded="false" aria-controls="drawer">Menu</button>
+  </div>
+  <div class="drawer" id="drawer" hidden>
+    <a href="#photography">01 Photography</a>
+    <a href="#music">02 Music</a>
+    <a href="#fashion">03 Fashion</a>
+    <a href="#design">04 Design</a>
+    <a href="#featured">05 Featured archive</a>
+    <a href="#stories">06 Stories through time</a>
+    <a href="#spotlight">07 Spotlight</a>
+    <a href="#credits">08 Credits</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- =============================================================== hero -->
+<section class="hero" id="top" aria-labelledby="heroTitle">
+  <div class="wrap">
+    <p class="hero__folio">
+      <span>Vol. 01</span>
+      <span aria-hidden="true">·</span>
+      <span>1856 <b>—</b> 2026</span>
+      <span aria-hidden="true">·</span>
+      <span>Lagos, Nigeria</span>
+      <span aria-hidden="true">·</span>
+      <span>Issue 01</span>
+    </p>
+
+    <div class="hero__mast">
+      <h1 class="wm wm--solid" id="heroTitle">Archive</h1>
+    </div>
+    <div class="hero__rule"></div>
+    <p class="hero__strap">
+      <span>A digital museum of Nigeria's creative history</span>
+      <span>Photography · Music · Fashion · Design</span>
+    </p>
+
+    <div class="hero__grid">
+      <div>
+        <p class="standfirst">
+          Nigeria's creative history is not a gap in the record. It is a record
+          that has been held elsewhere, catalogued under someone else's name,
+          and made hard to reach.
+        </p>
+        <p class="body">
+          ARCHIVE is a reading of that history across four disciplines — what was
+          made, who made it, when, and who holds it now. Every claim on this page
+          carries its source. Where a work cannot be shown, the page names it
+          anyway: the title, the date, the institution, the accession number and
+          the rights status, in the place where the image would have been.
+        </p>
+        <p class="hero__principle">
+          Do not merely display the past. Make people feel its influence on the present.
+        </p>
+        <div class="hero__actions">
+          <a class="btn" href="#stories">Explore the timeline</a>
+          <a class="btn btn--quiet" href="#featured">See the featured archive</a>
+        </div>
+      </div>
+
+      <div class="legend">
+        <h4>How to read this page</h4>
+        <ul>
+          <li><span class="k">●</span><span class="v"><b>High</b> — corroborated against an institutional collection record.</span></li>
+          <li><span class="k">◐</span><span class="v"><b>Medium</b> — stated by a named source; not independently corroborated.</span></li>
+          <li><span class="k">○</span><span class="v"><b>Attributed</b> — a claim made by a third party. Presented as their claim, not as fact.</span></li>
+          <li><span class="k">⊘</span><span class="v"><b>Unverified</b> — could not be sourced. Deliberately not on this page.</span></li>
+        </ul>
+        <p class="meta" style="margin-top:var(--s-5)">
+          The masthead has four registered states. It is never redrawn — only its
+          state changes.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================================================== featured archive -->
+<section id="featured" aria-labelledby="featuredTitle">
+  <div class="wrap">
+    <p class="eyebrow"><b>03</b> Featured archive <span>Plates 01–06</span></p>
+    <h2 class="sec" id="featuredTitle">Six works we cannot show you</h2>
+    <p class="standfirst">
+      Each of these is real, dated, and held somewhere. None of them is ours to
+      reproduce. So each one gets a plate: what it is, when it was made, who
+      holds it, and what its rights status is.
+    </p>
+
+    <div class="plates" id="plates">
+
+      <figure class="plate reveal" data-state="screen" style="--i:0">
+        <div class="plate__field" aria-hidden="true">
+          <span class="plate__no">Plate 01</span>
+          <span class="plate__nodata">No image reproduced · rights restricted</span>
+        </div>
+        <figcaption class="plate__body">
+          <p class="plate__title"><i>Untitled (Modern Suku)</i></p>
+          <dl>
+            <dt>Maker</dt><dd>J.D. 'Okhai Ojeikere</dd>
+            <dt>Date</dt><dd>1975</dd>
+            <dt>Holder</dt><dd>The Metropolitan Museum of Art. Purchase, Joseph and Ceil Mazer Foundation Inc. Gift, 2010</dd>
+            <dt>Rights</dt><dd data-rights="no">Not public domain. Not reproduced.</dd>
+            <dt>Confidence</dt><dd><span class="conf">●</span> High — verified via the Met's collection API</dd>
+          </dl>
+        </figcaption>
+      </figure>
+
+      <figure class="plate reveal" data-state="screen" style="--i:1">
+        <div class="plate__field" aria-hidden="true">
+          <span class="plate__no">Plate 02</span>
+          <span class="plate__nodata">No image reproduced · rights restricted</span>
+        </div>
+        <figcaption class="plate__body">
+          <p class="plate__title"><i>Ife Bronze</i>, from the series “Hairstyles”</p>
+          <dl>
+            <dt>Maker</dt><dd>J.D. 'Okhai Ojeikere</dd>
+            <dt>Date</dt><dd>1972</dd>
+            <dt>Holder</dt><dd>Art Institute of Chicago. Purchased with funds provided by Robin and Sandy Stuart</dd>
+            <dt>Rights</dt><dd data-rights="no">Not public domain. Not reproduced.</dd>
+            <dt>Confidence</dt><dd><span class="conf">●</span> High — verified via the AIC public API</dd>
+          </dl>
+        </figcaption>
+      </figure>
+
+      <figure class="plate reveal" data-state="screen" style="--i:2">
+        <div class="plate__field" aria-hidden="true">
+          <span class="plate__no">Plate 03</span>
+          <span class="plate__nodata">No image reproduced · rights restricted</span>
+        </div>
+        <figcaption class="plate__body">
+          <p class="plate__title">“Princess Kaftan”</p>
+          <dl>
+            <dt>Maker</dt><dd>Shade Thomas-Fahm</dd>
+            <dt>Date</dt><dd>1970s</dd>
+            <dt>Holder</dt><dd>Victoria and Albert Museum, T.5-2020. Given by Shade Thomas-Fahm. Embroidered of aṣọ-òkè fu cotton</dd>
+            <dt>Rights</dt><dd data-rights="no">Institution-held. Not reproduced.</dd>
+            <dt>Confidence</dt><dd><span class="conf">●</span> High — accessioned record verified via the V&amp;A API</dd>
+          </dl>
+        </figcaption>
+      </figure>
+
+      <figure class="plate reveal" data-state="soft" style="--i:3">
+        <div class="plate__field" aria-hidden="true">
+          <span class="plate__no">Plate 04</span>
+          <span class="plate__nodata">No image reproduced · rights unknown</span>
+        </div>
+        <figcaption class="plate__body">
+          <p class="plate__title">FESTAC '77 emblem — a bronze replica of the ivory mask of Queen Idia</p>
+          <dl>
+            <dt>Maker</dt><dd>Erhabor Emokpae (1934–1984)</dd>
+            <dt>Date</dt><dd>1973</dd>
+            <dt>Holder</dt><dd>Emblem of the Second World Black and African Festival of Arts and Culture, Lagos, 1977</dd>
+            <dt>Rights</dt><dd data-rights="no">Unknown. Not reproduced.</dd>
+            <dt>Confidence</dt><dd><span class="conf">●</span> High for the attribution and date</dd>
+          </dl>
+        </figcaption>
+      </figure>
+
+      <figure class="plate reveal" data-state="soft" style="--i:4">
+        <div class="plate__field" aria-hidden="true">
+          <span class="plate__no">Plate 05</span>
+          <span class="plate__nodata">No image reproduced · source under warning</span>
+        </div>
+        <figcaption class="plate__body">
+          <p class="plate__title">National Theatre, Iganmu, Lagos</p>
+          <dl>
+            <dt>Maker</dt><dd>Built by Techno Exporstroy, Bulgaria</dd>
+            <dt>Date</dt><dd>Completed 1976 for FESTAC '77; renamed for Wole Soyinka, 2024</dd>
+            <dt>Holder</dt><dd>Federal Republic of Nigeria</dd>
+            <dt>Rights</dt><dd data-rights="no">Photographer's copyright unknown. Not reproduced.</dd>
+            <dt>Confidence</dt><dd><span class="conf">◐</span> Medium — the source article carries an AI-generated content warning</dd>
+          </dl>
+        </figcaption>
+      </figure>
+
+      <figure class="plate reveal" data-state="outline" style="--i:5">
+        <div class="plate__field" aria-hidden="true">
+          <span class="plate__no">Plate 06</span>
+          <span class="plate__nodata">Lead only · not yet sourced</span>
+        </div>
+        <figcaption class="plate__body">
+          <p class="plate__title">Nigerian record sleeve design</p>
+          <dl>
+            <dt>Maker</dt><dd>—</dd>
+            <dt>Date</dt><dd>—</dd>
+            <dt>Holder</dt><dd>—</dd>
+            <dt>Rights</dt><dd>Unknown</dd>
+            <dt>Confidence</dt><dd><span class="conf">⊘</span> Unverified. Shown as an outline because it is a gap we are naming, not a finding.</dd>
+          </dl>
+        </figcaption>
+      </figure>
+
+    </div>
+
+    <p class="meta" style="margin-top:var(--s-7)">
+      Plate states: <b style="color:var(--bone-300);font-weight:400">Solid</b> in use ·
+      <b style="color:var(--bone-300);font-weight:400">Screen</b> featured archive ·
+      <b style="color:var(--bone-300);font-weight:400">Soft</b> uncertain material ·
+      <b style="color:var(--bone-300);font-weight:400">Outline</b> leads.
+    </p>
+  </div>
+</section>
+
+<!-- ====================================================== disciplines -->
+<section id="disciplines" aria-labelledby="discTitle">
+  <div class="wrap">
+    <p class="eyebrow"><b>04</b> Explore the disciplines</p>
+    <h2 class="sec" id="discTitle">Four disciplines, four registers</h2>
+    <p class="standfirst">
+      They are not equally documented, and this page does not pretend otherwise.
+      Photography and Music carry depth. Fashion rests on one well-documented
+      designer and strong object records. Design is thin, and says so.
+    </p>
+
+    <div class="disc">
+
+      <!-- ------------------------------------------------------ photo -->
+      <article class="disc__row reveal" id="photography" data-d="photo" style="--i:0" aria-labelledby="d-photo">
+        <div>
+          <p class="disc__mark">01 · Photography</p>
+          <h3 class="disc__name" id="d-photo">Photo&shy;graphy</h3>
+          <p class="disc__count">10 sourced entries · institutional holdings verified</p>
+        </div>
+        <div class="disc__facts">
+          <div class="fact">
+            <p class="fact__when">1856 · Abeokuta and Lagos</p>
+            <p class="fact__what">Daniel West, a Methodist pastor from Britain, <b>apparently took daguerreotypes</b> in Abeokuta and Lagos — but only engravings survive. <span class="conf">◐</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">1880 onwards · Lagos</p>
+            <p class="fact__what">Professional photographic studios were established in Lagos, often run by Sierra Leoneans, Liberians or Brazilians in Nigeria. Neils Walwin Holm was, from the 1890s until 1910, <b>“the pre-eminent photographer of Lagos.”</b> <span class="conf">◐</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">1968 onwards</p>
+            <p class="fact__what">J.D. 'Okhai Ojeikere began documenting Nigerian hairstyles, printing roughly a thousand pictures and leaving an archive of <b>well over 10,000 photographs</b>. <span class="conf">●</span></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ------------------------------------------------------ music -->
+      <article class="disc__row reveal" id="music" data-d="music" style="--i:1" aria-labelledby="d-music">
+        <div>
+          <p class="disc__mark">02 · Music</p>
+          <h3 class="disc__name" id="d-music">Music</h3>
+          <p class="disc__count">12 sourced entries · one corrected common myth</p>
+        </div>
+        <div class="disc__facts">
+          <div class="fact">
+            <p class="fact__when">19th century onwards</p>
+            <p class="fact__what"><b>Highlife is Ghanaian.</b> It originated along the coastal cities of present-day Ghana and spread to Nigeria after the Second World War as <b>Igbo highlife</b>, which became Nigeria's most popular genre in the 1960s. <span class="conf">◐</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">1920s · Lagos</p>
+            <p class="fact__what">Jùjú, a Yoruba popular music, began developing in Lagos with Tunde King. Talking drums were not introduced to the genre until <b>1948</b>. <span class="conf">◐</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">1960s onward vs 2000s–2010s</p>
+            <p class="fact__what"><b>Afrobeat and Afrobeats are not the same genre.</b> Afrobeat fuses Yoruba and Ghanaian music with American funk, jazz and soul, pioneered in the 1960s by Fela Kuti <b>with drummer Tony Allen</b>. Afrobeats is an umbrella term for popular music developed in Nigeria, Ghana and the UK in the 2000s and 2010s. <span class="conf">●</span></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ---------------------------------------------------- fashion -->
+      <article class="disc__row reveal" id="fashion" data-d="fashion" style="--i:2" aria-labelledby="d-fashion">
+        <div>
+          <p class="disc__mark">03 · Fashion</p>
+          <h3 class="disc__name" id="d-fashion">Fashion</h3>
+          <p class="disc__count">8 sourced entries · object-level records at the V&amp;A</p>
+        </div>
+        <div class="disc__facts">
+          <div class="fact">
+            <p class="fact__when">1960 · Yaba, Lagos</p>
+            <p class="fact__what">Shade Thomas-Fahm opened <b>Maison Shadé</b> and popularised the use of hand-dyed adire and aso oke in ready-to-wear. The V&amp;A heads its own trail <b>“Nigeria's first fashion designer: Shade Thomas-Fahm”</b> — a claim made by the museum, so this page reports it as theirs. <span class="conf">○</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">20th century · Abeokuta and Ibadan</p>
+            <p class="fact__what">Adire is resist-dyed cloth made by Yoruba women — from <b>adi</b> (“to tie”) and <b>re</b> (“to soak”). Imports of shirting material in the early 20th century caused a boom that made it a major local craft. <span class="conf">◐</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">19th century onwards</p>
+            <p class="fact__what"><b>Ankara is not a traditional Nigerian cloth.</b> It is industrially produced cotton with batik-inspired printing, introduced to West Africans by <b>Dutch</b> merchants in the 19th century from Indonesian batik. The name comes from the Hausa word for Accra. <span class="conf">◐</span></p>
+          </div>
+        </div>
+      </article>
+
+      <!-- ----------------------------------------------------- design -->
+      <article class="disc__row reveal" id="design" data-d="design" style="--i:3" aria-labelledby="d-design">
+        <div>
+          <p class="disc__mark">04 · Design</p>
+          <h3 class="disc__name" id="d-design">Design</h3>
+          <p class="disc__count">9 sourced entries · the thinnest of the four. Stated, not hidden.</p>
+        </div>
+        <div class="disc__facts">
+          <div class="fact">
+            <p class="fact__when">1958–1962 · Zaria</p>
+            <p class="fact__what">The <b>Zaria Art Society</b> was formed by students who rejected the Western-focused curriculum of their mainly British lecturers and promoted local traditions such as Nok sculpture and Uli painting. The style is now called <b>natural synthesis</b> — a term coined by Uche Okeke. <span class="conf">◐</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">1961 onwards · Ibadan</p>
+            <p class="fact__what">The <b>Mbari Club</b> was founded by Ulli Beier with Wole Soyinka and Chinua Achebe, who suggested the name. It published <b>17 titles</b> by African writers in the 1960s, and Fela Kuti made his debut as a bandleader there. <span class="conf">◐</span></p>
+          </div>
+          <div class="fact">
+            <p class="fact__when">The gap</p>
+            <p class="fact__what">Nigerian graphic design proper — posters, book jackets, record sleeves, signage, type — <b>could not be sourced</b>. What stands in for it here is art, publishing and architecture. <span class="conf">⊘</span></p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================== stories -->
+<section id="stories" aria-labelledby="storiesTitle">
+  <div class="wrap">
+    <p class="eyebrow"><b>05</b> Stories through time</p>
+    <h2 class="sec" id="storiesTitle">170 years, in order</h2>
+    <p class="standfirst">
+      The spine of the page. Each entry is a dated, sourced event. Brass marks the
+      moments where more than one discipline meets.
+    </p>
+
+    <div class="spine-tl">
+      <div class="tl__item"><span class="tl__year">1856</span><span class="tl__text"><b>Daniel West</b> apparently takes daguerreotypes in Abeokuta and Lagos. Only engravings survive. <span class="conf">◐</span></span><span class="tl__d">Photography</span></div>
+      <div class="tl__item"><span class="tl__year">1880</span><span class="tl__text">Professional photographic <b>studios open in Lagos</b>, often run by Sierra Leoneans, Liberians or Brazilians in Nigeria. <span class="conf">◐</span></span><span class="tl__d">Photography</span></div>
+      <div class="tl__item"><span class="tl__year">1897</span><span class="tl__text">The British loot the palace of the Oba of Benin. The <b>ivory mask of Queen Idia</b> is taken — the object that becomes the FESTAC '77 emblem. <span class="conf">●</span></span><span class="tl__d">Design · History</span></div>
+      <div class="tl__item"><span class="tl__year">1920s</span><span class="tl__text"><b>Jùjú</b> begins developing in Lagos with Tunde King. A recognisable genre does not emerge until the mid-1930s. <span class="conf">◐</span></span><span class="tl__d">Music</span></div>
+      <div class="tl__item"><span class="tl__year">1930s</span><span class="tl__text">Chief <b>Solomon Osagie Alonge</b> becomes the first official photographer to the royal court of Benin City. <span class="conf">◐</span></span><span class="tl__d">Photography</span></div>
+      <div class="tl__item"><span class="tl__year">1947</span><span class="tl__text">The <b>National Professional Photographers Association</b> is created amid a post-war boom in the profession. <span class="conf">◐</span></span><span class="tl__d">Photography</span></div>
+      <div class="tl__item"><span class="tl__year">1954</span><span class="tl__text">Trumpeter <b>Victor Olaiya</b> forms the Cool Cats. Fela Kuti and Tony Allen both pass through his band. <span class="conf">◐</span></span><span class="tl__d">Music</span></div>
+      <div class="tl__item tl__item--flag"><span class="tl__year">1958</span><span class="tl__text">The <b>Zaria Art Society</b> is founded by students who reject a Western-only curriculum and argue for <b>natural synthesis</b>. <span class="conf">◐</span></span><span class="tl__d">Design · Art</span></div>
+      <div class="tl__item"><span class="tl__year">1959</span><span class="tl__text"><b>Bruce Onobrakpeya</b> holds his first one-man exhibition in Ughelli. <span class="conf">◐</span></span><span class="tl__d">Design · Art</span></div>
+      <div class="tl__item"><span class="tl__year">1960</span><span class="tl__text"><b>Shade Thomas-Fahm</b> opens Maison Shadé in Yaba, Lagos, and puts hand-dyed adire and aso oke into ready-to-wear. <span class="conf">●</span></span><span class="tl__d">Fashion</span></div>
+      <div class="tl__item tl__item--flag"><span class="tl__year">1961</span><span class="tl__text">The <b>Mbari Club</b> is founded in Ibadan. Achebe suggests the name; it publishes 17 titles by African writers. Fela debuts as a bandleader there. <span class="conf">◐</span></span><span class="tl__d">Design · Music · Literature</span></div>
+      <div class="tl__item"><span class="tl__year">1964</span><span class="tl__text"><b>Ebenezer Obey</b> forms The International Brothers, playing a highlife–jùjú fusion. <span class="conf">◐</span></span><span class="tl__d">Music</span></div>
+      <div class="tl__item tl__item--flag"><span class="tl__year">1968</span><span class="tl__text"><b>Ojeikere begins the hairstyles project.</b> In the same year Tony Allen joins Fela's band Africa '70. <span class="conf">●</span></span><span class="tl__d">Photography · Music</span></div>
+      <div class="tl__item"><span class="tl__year">1970</span><span class="tl__text">Fela founds the <b>Kalakuta Republic</b>. Africa '70 begins a five-year residency at the Afrika Shrine. <span class="conf">●</span></span><span class="tl__d">Music</span></div>
+      <div class="tl__item"><span class="tl__year">1973</span><span class="tl__text"><b>Erhabor Emokpae</b> produces the FESTAC '77 emblem — a bronze replica of the ivory mask of Queen Idia. <span class="conf">●</span></span><span class="tl__d">Design</span></div>
+      <div class="tl__item"><span class="tl__year">1976</span><span class="tl__text">The <b>National Theatre</b>, Iganmu, is completed in preparation for FESTAC. <span class="conf">◐</span></span><span class="tl__d">Design · Architecture</span></div>
+      <div class="tl__item tl__item--flag"><span class="tl__year">1977</span><span class="tl__text"><b>FESTAC '77</b>, Lagos, 15 January – 12 February: around <b>16,000 participants</b> from 56 African nations and the diaspora, and roughly 500,000 spectators. In the same year an army raid destroys Kalakuta. <span class="conf">●</span></span><span class="tl__d">All four</span></div>
+      <div class="tl__item"><span class="tl__year">1982</span><span class="tl__text"><b>King Sunny Adé</b> signs to Island Records; <i>Juju Music</i> follows, then <i>Synchro System</i> (1983). <span class="conf">●</span></span><span class="tl__d">Music</span></div>
+      <div class="tl__item"><span class="tl__year">2013</span><span class="tl__text">A large selection of <b>Ojeikere</b>'s work is shown in the Arsenale at the 55th Venice Biennale. <span class="conf">●</span></span><span class="tl__d">Photography</span></div>
+      <div class="tl__item"><span class="tl__year">2023</span><span class="tl__text"><b>Demas Nwoko</b>, of the Zaria Art Society, is awarded the Golden Lion for Lifetime Achievement at the Venice Biennale of Architecture. <span class="conf">◐</span></span><span class="tl__d">Design · Architecture</span></div>
+      <div class="tl__item"><span class="tl__year">2024</span><span class="tl__text">The National Theatre, Lagos, is <b>renamed in honour of Wole Soyinka</b>. <span class="conf">◐</span></span><span class="tl__d">Design</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================== spotlight -->
+<section id="spotlight" aria-labelledby="spotTitle">
+  <div class="wrap">
+    <p class="eyebrow"><b>06</b> Featured creator</p>
+    <h2 class="sec" id="spotTitle">J.D. 'Okhai Ojeikere</h2>
+    <p class="standfirst">1930–2014. The best-documented subject in this archive — and the reason this page is built the way it is.</p>
+
+    <div class="spot">
+      <div>
+        <p class="body">
+          Johnson Donatus Aihumekeokhai Ojeikere was a Nigerian photographer. In
+          <strong>1968</strong> he began documenting Nigerian hairstyles, printing
+          approximately a thousand pictures of African women's hair and leaving
+          behind an archive of well over <strong>10,000 photographs</strong>.
+        </p>
+        <p class="body">
+          His work is now held by four of the institutions this project relies on.
+          That is the good news. It is also the problem: <strong>not one of those
+          holdings is ours to reproduce</strong>. Every one of them is recorded as
+          not public domain, and MoMA's own page routes reproduction through a
+          licensing process.
+        </p>
+        <p class="spot__pull">
+          So we name the work instead. The title, the date, the accession, the
+          institution — and, in the space where the photograph would be, the
+          reason you cannot see it.
+        </p>
+        <p class="body">
+          This is not a workaround. It is the argument: that Nigeria's creative
+          history is real, documented, and largely <strong>held elsewhere</strong>
+          — and that saying so plainly is more honest than a page of borrowed
+          images with no provenance.
+        </p>
+      </div>
+
+      <div>
+        <p class="eyebrow" style="border:0">Institutional holdings <span>4 collections</span></p>
+        <div class="holdings">
+          <div class="holding">
+            <span class="holding__n">MoMA</span>
+            <span class="holding__t">3 works online — <b><i>Fro</i></b> (1970), <b><i>Two in One Piko</i></b> (1971), <b><i>Brush Eko Bridge</i></b> (1973). Reproduction is handled through a licensing process.</span>
+          </div>
+          <div class="holding">
+            <span class="holding__n">Met</span>
+            <span class="holding__t">2 works — <b><i>Untitled (Modern Suku)</i></b> (1975) and <b><i>Untitled (Mkpuk Eba)</i></b> (1974), accessioned 2010. Recorded <b>not public domain</b>.</span>
+          </div>
+          <div class="holding">
+            <span class="holding__n">AIC</span>
+            <span class="holding__t"><b><i>Ife Bronze</i></b>, from the series “Hairstyles” (1972). Recorded <b>not public domain</b>.</span>
+          </div>
+          <div class="holding">
+            <span class="holding__n">V&amp;A</span>
+            <span class="holding__t">8 records, including <b><i>HD176/70 (Fro Fro)</i></b> (1970).</span>
+          </div>
+        </div>
+        <p class="meta" style="margin-top:var(--s-6)">
+          <span class="conf">●</span> All four holdings verified against the institutions'
+          public collection APIs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================== honesty -->
+<section id="honest" aria-labelledby="honestTitle">
+  <div class="wrap">
+    <p class="eyebrow"><b>07</b> Closing</p>
+    <h2 class="sec" id="honestTitle">What we could not verify</h2>
+    <p class="standfirst">
+      Preservation is not the same as presentation. A record that cannot say what
+      it does not know is not a record — it is a brochure.
+    </p>
+
+    <div class="honest">
+      <h3 class="sub">Kept off the page, on purpose</h3>
+      <p class="body">
+        These are the things this project was told to look for and could not
+        source. They are listed here rather than quietly dropped, and none of
+        them appears above as a fact.
+      </p>
+      <ul>
+        <li><b>Nigerian record sleeve design.</b> No source reachable here documents it as a history. Plate 06 marks the hole.</li>
+        <li><b>Nigerian poster practice and FESTAC '77 poster work.</b> The emblem is verified; the posters are not.</li>
+        <li><b>“The Lagos studio portrait tradition”</b> as a named genre. Lagos studios from 1880 are sourced; the tradition as a documented category is not.</li>
+        <li><b>FESTAC '77 as a photography documentation project.</b> The festival is well sourced; a photographic project around it is not.</li>
+        <li><b>Individual contemporary Afrobeats artists.</b> The genre term and its timeline are sourced. No artist was verified, so none is named.</li>
+        <li><b>Akinola Lasekan; Don Barber; Amos Olarenwaju Osidele.</b> Named in project notes, not sourced. Dropped.</li>
+      </ul>
+
+      <h3 class="sub" style="margin-top:var(--s-8)">Corrections this page makes</h3>
+      <p class="body">
+        Several widely repeated claims turned out to be wrong or contested. Each
+        is corrected in place above rather than repeated.
+      </p>
+      <ul>
+        <li><b>Highlife is Ghanaian in origin.</b> Igbo highlife is the Nigerian form.</li>
+        <li><b>Afrobeat is not Afrobeats</b> — and Fela did not invent it alone. Fela himself said: “without Tony Allen, there would be no Afrobeat.”</li>
+        <li><b>Ankara is not traditional Nigerian cloth.</b> It is Dutch-introduced, batik-derived, and named after Accra.</li>
+        <li><b>Adire means <i>adi</i> + <i>re</i></b> — “to tie” + “to soak”, not the generic “tie and dye”.</li>
+        <li><b>Ojeikere's hairstyles are dated 1968</b>, not the 1950s. The source page contradicts itself; 1968 is the dated statement.</li>
+        <li><b>“First Nigerian fashion designer”</b> is the V&amp;A's claim, so it is attributed to the V&amp;A.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ close -->
+<section class="close" aria-labelledby="closeTitle">
+  <div class="wrap">
+    <div class="close__grid">
+      <div>
+        <p class="eyebrow"><b>08</b> Continue</p>
+        <h2 class="wm wm--solid" id="closeTitle" style="margin-top:var(--s-5);font-size:clamp(2rem,7vw,5.5rem);font-weight:800">Archive</h2>
+        <div class="hero__rule" style="margin-top:var(--s-4)"></div>
+        <p class="standfirst" style="margin-top:var(--s-5)">
+          The past is not a set of objects. It is a set of arguments about what
+          still counts. This page is one argument: that Nigeria's creative history
+          should be impossible to ignore — and that ignoring it was always a choice
+          somebody made.
+        </p>
+        <div class="hero__actions">
+          <a class="btn" href="#stories">Start at 1856</a>
+          <a class="btn btn--quiet" href="#credits">Read the credits</a>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow" style="border:0">A note on the images</p>
+        <p class="body">
+          There are no photographs on this page. Not because none exist — the
+          opposite — but because almost every significant work in this history is
+          held by an institution that has not licensed it for reproduction, and
+          inventing substitutes would be a lie told in the exact place where trust
+          is being asked for.
+        </p>
+        <p class="body">
+          The plates name what belongs there. That is the promise the rest of this
+          archive is built on.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================================== footer -->
+<footer id="credits">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h4>Archive</h4>
+        <p class="body">
+          A digital museum of Nigeria's creative history across Photography, Music,
+          Fashion and Design. Volume 01, Issue 01.
+        </p>
+        <p class="meta" style="margin-top:var(--s-4)">1856 — 2026 · Lagos, Nigeria</p>
+      </div>
+
+      <div>
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="#featured">Featured archive</a></li>
+          <li><a href="#disciplines">Explore the disciplines</a></li>
+          <li><a href="#stories">Stories through time</a></li>
+          <li><a href="#spotlight">Featured creator</a></li>
+          <li><a href="#honest">What we could not verify</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Disciplines</h4>
+        <ul>
+          <li><a href="#photography">Photography</a></li>
+          <li><a href="#music">Music</a></li>
+          <li><a href="#fashion">Fashion</a></li>
+          <li><a href="#design">Design</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Sources</h4>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Photography_in_Nigeria" rel="noopener">Photography in Nigeria</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/J._D._%27Okhai_Ojeikere" rel="noopener">J.D. 'Okhai Ojeikere</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Festac_77" rel="noopener">FESTAC '77</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Afrobeat" rel="noopener">Afrobeat</a> · <a href="https://en.wikipedia.org/wiki/Afrobeats" rel="noopener">Afrobeats</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Shade_Thomas-Fahm" rel="noopener">Shade Thomas-Fahm</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/African_wax_prints" rel="noopener">African wax prints</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Zaria_Art_Society" rel="noopener">Zaria Art Society</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/The_Mbari_Club" rel="noopener">The Mbari Club</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="colophon">
+      <p>Compiled from 39 sourced entries · every claim carries its confidence</p>
+      <p>Wikipedia text is CC BY-SA 4.0. Collections cited: MoMA · The Met · Art Institute of Chicago · V&amp;A</p>
+      <p>Set in Archivo, Charis SIL and Space Mono — all SIL Open Font License</p>
+      <button class="btn btn--quiet motion-toggle" id="motionToggle" type="button" aria-pressed="false">Reduce motion: off</button>
+    </div>
+    <p class="sr" id="liveNote" role="status" aria-live="polite"></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------------------------------------------------------- nav drawer */
+  var toggle = document.getElementById('navToggle');
+  var drawer = document.getElementById('drawer');
+  if (toggle && drawer) {
+    toggle.addEventListener('click', function () {
+      var open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      drawer.hidden = open;
+    });
+    drawer.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') {
+        toggle.setAttribute('aria-expanded', 'false');
+        drawer.hidden = true;
+      }
+    });
+  }
+
+  /* --------------------------------------------------- one observer only */
+  var revealables = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-in');
+        io.unobserve(entry.target);            // fires once; never re-triggered
+      });
+    }, { threshold: 0.2, rootMargin: '0px 0px -8% 0px' });
+    revealables.forEach(function (el) { io.observe(el); });
+  } else {
+    revealables.forEach(function (el) { el.classList.add('is-in'); });
+  }
+
+  /* ------------------------------------------- spine folio + masthead state */
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var folio = document.getElementById('spineFolio');
+  var state = document.getElementById('spineState');
+  var sections = [
+    ['top', '01 / 08', 'State 01 · Solid'],
+    ['featured', '02 / 08', 'State 02 · Screen'],
+    ['disciplines', '03 / 08', 'State 01 · Solid'],
+    ['stories', '04 / 08', 'State 01 · Solid'],
+    ['spotlight', '05 / 08', 'State 03 · Soft'],
+    ['honest', '06 / 08', 'State 03 · Soft'],
+    ['credits', '07 / 08', 'State 04 · Outline']
+  ];
+
+  function syncSpine() {
+    if (!folio || !state) return;
+    var y = window.scrollY + window.innerHeight * 0.35;
+    var current = sections[0];
+    for (var i = 0; i < sections.length; i++) {
+      var el = document.getElementById(sections[i][0]);
+      if (el && el.offsetTop <= y) current = sections[i];
+    }
+    folio.textContent = current[1];
+    state.textContent = current[2];
+  }
+
+  /* The masthead holds state 01 SOLID. The four registered states are applied
+     where they carry meaning — to the plates, by confidence — rather than
+     rotated as decoration in the hero. */
+  if (!reduced) {
+    window.addEventListener('scroll', syncSpine, { passive: true });
+    syncSpine();
+  } else if (state) {
+    state.textContent = 'State 01 · Solid';
+  }
+
+  /* ===== stage 06 · interaction build ===================================== */
+  var header = document.querySelector('header');
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll('.bar__nav a'));
+  var live = document.getElementById('liveNote');
+
+  /* [A2] scroll-shrink + [I1] aria-current for the section in view. Read-only
+     measurement in one rAF-throttled handler: no layout writes in the loop. */
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return; ticking = true;
+    window.requestAnimationFrame(function () {
+      ticking = false;
+      if (header) header.setAttribute('data-scrolled', window.scrollY > 128 ? 'true' : 'false');
+      var y = window.scrollY + window.innerHeight * 0.35, active = null;
+      navLinks.forEach(function (a) {
+        var el = document.getElementById(a.getAttribute('href').slice(1));
+        if (el && el.getBoundingClientRect().top + window.scrollY <= y) active = a;
+      });
+      navLinks.forEach(function (a) {
+        if (a === active) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current');
+      });
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* [D5] copy citation for every plate, announced politely. */
+  function say(msg) { if (live) { live.textContent = ''; window.setTimeout(function () { live.textContent = msg; }, 30); } }
+  Array.prototype.forEach.call(document.querySelectorAll('.plate'), function (plate) {
+    var cap = plate.querySelector('.plate__body'); if (!cap) return;
+    var btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'plate__cite'; btn.textContent = 'Copy citation';
+    plate.appendChild(btn);
+    btn.addEventListener('click', function () {
+      var title = (cap.querySelector('.plate__title') || {}).textContent || '';
+      var parts = [title.trim()];
+      Array.prototype.forEach.call(cap.querySelectorAll('dt'), function (dt) {
+        var dd = dt.nextElementSibling; if (dd) parts.push(dt.textContent + ': ' + dd.textContent.trim());
+      });
+      var text = parts.join('. ') + '. Source: ARCHIVE, Vol. 01.';
+      function done() { btn.textContent = 'Copied'; say('Citation copied'); window.setTimeout(function () { btn.textContent = 'Copy citation'; }, 2000); }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { say('Copy failed. Select the caption text instead.'); });
+      } else { say('Copy is not available here. Select the caption text instead.'); }
+    });
+  });
+
+  /* [K4] visible reduce-motion switch, persisted. */
+  var mt = document.getElementById('motionToggle');
+  function paintMotion() {
+    var on = document.documentElement.getAttribute('data-motion') === 'reduce';
+    if (mt) { mt.setAttribute('aria-pressed', String(on)); mt.textContent = 'Reduce motion: ' + (on ? 'on' : 'off'); }
+  }
+  if (mt) {
+    paintMotion();
+    mt.addEventListener('click', function () {
+      var on = document.documentElement.getAttribute('data-motion') === 'reduce';
+      if (on) document.documentElement.removeAttribute('data-motion'); else document.documentElement.setAttribute('data-motion', 'reduce');
+      try { if (on) localStorage.removeItem('archive-motion'); else localStorage.setItem('archive-motion', 'reduce'); } catch (e) {}
+      paintMotion(); say('Reduce motion ' + (on ? 'off' : 'on')); document.dispatchEvent(new Event('archive:motion'));
+    });
+  }
+
+  /* [B2+K2] pinned era rail --------------------------------------------------
+     Moves the existing .tl__item nodes (no duplicated content for assistive tech)
+     into era panels; restores them when the rail is switched off. */
+  var tl = document.querySelector('.spine-tl');
+  var ERAS = [['Before 1950', 0, 1949], ['1950s', 1950, 1959], ['1960s', 1960, 1969], ['1970s', 1970, 1979], ['1980 onward', 1980, 9999]];
+  var rail = null;
+  function railAllowed() {
+    return window.matchMedia('(min-width: 900px) and (min-height: 720px)').matches &&
+           !window.matchMedia('(prefers-reduced-motion: reduce)').matches &&
+           document.documentElement.getAttribute('data-motion') !== 'reduce';
+  }
+  function railOff() {
+    if (!rail) return;
+    rail.items.forEach(function (it) { tl.appendChild(it); });   // original order
+    rail.root.parentNode.removeChild(rail.root);
+    tl.hidden = false; rail = null;
+  }
+  function railOn() {
+    if (rail || !tl) return;
+    var items = Array.prototype.slice.call(tl.querySelectorAll('.tl__item'));
+    var root = document.createElement('div'); root.className = 'era';
+    var stick = document.createElement('div'); stick.className = 'era__stick';
+    var idx = document.createElement('ol'); idx.className = 'era__index'; idx.setAttribute('aria-label', 'Eras');
+    var prog = document.createElement('div'); prog.className = 'era__prog'; prog.setAttribute('aria-hidden', 'true'); prog.appendChild(document.createElement('i'));
+    var track = document.createElement('div'); track.className = 'era__track';
+    var panels = [];
+    ERAS.forEach(function (e, n) {
+      var mine = items.filter(function (it) { var y = parseInt(it.querySelector('.tl__year').textContent, 10); return y >= e[1] && y <= e[2]; });
+      if (!mine.length) return;
+      var pn = document.createElement('section'); pn.className = 'era__panel'; pn.id = 'era-' + n;
+      var h = document.createElement('h3'); h.textContent = e[0];
+      var meta = document.createElement('p'); meta.className = 'era__meta'; meta.textContent = mine.length + (mine.length === 1 ? ' entry' : ' entries');
+      pn.setAttribute('aria-label', e[0]); pn.appendChild(h); pn.appendChild(meta);
+      mine.forEach(function (it) { pn.appendChild(it); });
+      track.appendChild(pn); panels.push(pn);
+      var li = document.createElement('li'), a = document.createElement('a'); a.href = '#era-' + n; a.textContent = e[0]; li.appendChild(a); idx.appendChild(li);
+    });
+    stick.appendChild(idx); stick.appendChild(prog); stick.appendChild(track); root.appendChild(stick);
+    tl.parentNode.insertBefore(root, tl); tl.hidden = true;
+    rail = { root: root, stick: stick, track: track, prog: prog.firstChild, panels: panels, links: Array.prototype.slice.call(idx.querySelectorAll('a')), items: items, range: 0 };
+    idx.addEventListener('click', function (ev) {
+      var a = ev.target.closest('a'); if (!a) return; ev.preventDefault();
+      var pn = document.getElementById(a.getAttribute('href').slice(1));
+      var top = root.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo(0, top + (pn.offsetLeft / Math.max(1, rail.range)) * rail.scrollSpan);
+    });
+    railMeasure(); railUpdate();
+  }
+  function railMeasure() {
+    if (!rail) return;
+    var bar = document.querySelector('.bar'); var bh = bar ? bar.offsetHeight : 64;
+    document.documentElement.style.setProperty('--bar-h', bh + 'px');
+    rail.range = Math.max(0, rail.track.scrollWidth - rail.stick.clientWidth);
+    var stickH = window.innerHeight - bh;
+    rail.scrollSpan = rail.range;                     // 1px of scroll = 1px of travel
+    rail.root.style.height = (stickH + rail.scrollSpan) + 'px';
+  }
+  function railUpdate() {
+    if (!rail) return;
+    var top = rail.root.getBoundingClientRect().top + window.scrollY;
+    var bar = document.querySelector('.bar'); var bh = bar ? bar.offsetHeight : 64;
+    var p = rail.scrollSpan > 0 ? Math.min(1, Math.max(0, (window.scrollY + bh - top) / rail.scrollSpan)) : 0;
+    rail.track.style.transform = 'translate3d(' + (-p * rail.range) + 'px,0,0)';
+    rail.prog.style.setProperty('--p', p.toFixed(4));
+    var x = p * rail.range, cur = rail.panels[0];
+    var edge = x + rail.stick.clientWidth * 0.45;
+    rail.panels.forEach(function (pn) { if (pn.offsetLeft <= edge) cur = pn; });
+    if (p >= 0.995) cur = rail.panels[rail.panels.length - 1];
+    rail.links.forEach(function (a) { if (a.getAttribute('href') === '#' + cur.id) a.setAttribute('aria-current', 'step'); else a.removeAttribute('aria-current'); });
+  }
+  function railSync() { if (railAllowed()) { railOn(); railMeasure(); railUpdate(); } else { railOff(); } }
+  window.addEventListener('scroll', function () { if (rail) window.requestAnimationFrame(railUpdate); }, { passive: true });
+  window.addEventListener('resize', railSync);
+  document.addEventListener('archive:motion', railSync);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { railMeasure(); railUpdate(); });
+  railSync();
+})();
+</script>
+</body>
+</html>

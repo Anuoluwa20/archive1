@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #08080A;
+  --bg-secondary: #0D0D10;
+  --bg-tertiary: #1A1A20;
+  --bg-paper: #F8F5EE;
+  
+  --text-primary: #F4F1EA;
+  --text-secondary: #9C9CA8;
+  --text-tertiary: #6B6B78;
+  --text-inverse: #0D0D10;
+
+  --accent-terracotta: #D9532F;
+  --accent-bronze: #D4AF37;
+  --accent-ochre: #E09F3E;
+  --accent-indigo: #1B2A4A;
+
+  --font-display: 'Syne', system-ui, -apple-system, sans-serif;
+  --font-editorial: 'Newsreader', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #08080A;
+  color: #F4F1EA;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom Archival Focus Visible Outline */
+:focus-visible {
+  outline: 2px solid #D4AF37 !important;
+  outline-offset: 3px !important;
+}
+
+/* Subtle Film Grain Noise Texture Overlay */
+.archival-grain {
+  background-image: radial-gradient(rgba(244, 241, 234, 0.045) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Printer Registration Crosshair Target (+) */
+.registration-crosshair {
+  position: relative;
+}
+.registration-crosshair::before {
+  content: "+";
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: rgba(212, 175, 55, 0.45);
+  pointer-events: none;
+}
+
+/* Glassmorphism Sheen */
+.glass-panel {
+  background: rgba(13, 13, 16, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-elevated {
+  background: rgba(19, 19, 23, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8);
+}
+
+/* Custom Scrollbar for Catalog Browsing */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08080A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26262F;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D9532F;
+}
+
+/* Reduced Motion Safety */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Inspiration-library patterns (UI-CARD / UI-HERO / UI-NAV / UI-MICRO studies) ── */
+/* Grease-pencil crop marks on archival cards (Cultural & Archival Cards, 4:5 frames) */
+.crop-marks { position: relative; }
+.crop-marks::before, .crop-marks::after {
+  content: ""; position: absolute; width: 14px; height: 14px; z-index: 5; pointer-events: none;
+  border: 0 solid rgba(224, 159, 62, 0.85); transition: all .3s ease;
+}
+.crop-marks::before { top: 6px; left: 6px; border-top-width: 2px; border-left-width: 2px; }
+.crop-marks::after { bottom: 6px; right: 6px; border-bottom-width: 2px; border-right-width: 2px; }
+.crop-marks:hover::before, .crop-marks:hover::after { width: 26px; height: 26px; border-color: #D9532F; }
+
+/* Live accession ticker (Hero Sections & Monumental Typography) */
+@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.ticker-track { display: flex; width: max-content; animation: ticker 60s linear infinite; }
+.ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+
+/* Spring press physics (Micro-Interactions & Tactile States) */
+button, [role="button"] { transition-timing-function: cubic-bezier(.34, 1.56, .64, 1); }
+button:active:not(:disabled) { transform: scale(0.97); }
+
+/* Floating glass pill navigation (Navigation & Command Bars) */
+header.nav-pill, nav.nav-pill { backdrop-filter: blur(18px); }
+
+/* Vellum reading surface for curatorial notes (Color Systems) */
+.vellum { background: #F8F5EE; color: #0D0D10; border-left: 3px solid #BC3A18; }
+
+/* ── DESIGN_SYSTEM.md: alternating surfaces (MoMA/Gentlewoman paper, Radio Garden indigo field) ── */
+.border-ink { border-color: #0D0D10; }
+.theme-paper { background: #F4F1EA; color: #0D0D10; }
+.theme-paper .text-white, .theme-paper .text-archival-100, .theme-paper .text-archival-200 { color: #0D0D10; }
+.theme-paper .text-archival-300, .theme-paper .text-archival-400, .theme-paper .text-archival-500 { color: #4A4A55; }
+.theme-paper .bg-archival-850, .theme-paper .bg-archival-900, .theme-paper .bg-archival-800 { background-color: #FFFFFF; }
+.theme-paper .bg-archival-950, .theme-paper .bg-archival-950\/60 { background-color: #E9E5DA; }
+.theme-paper [class*="border-white"] { border-color: rgba(13, 13, 16, 0.18); }
+.theme-paper .vellum { background: #FFFFFF; border-left-color: #BC3A18; }
+.theme-paper .glass-panel, .theme-paper .glass-panel-elevated { background: #FFFFFF; border-color: rgba(13,13,16,.18); }
+.theme-paper input, .theme-paper select { background: #FFFFFF; color: #0D0D10; border-color: rgba(13,13,16,.3); }
+.theme-paper h2, .theme-paper h3 { letter-spacing: -0.03em; }
+.theme-indigo { background: #1B2A4A; color: #F4F1EA; }
+.theme-indigo .bg-archival-850, .theme-indigo .bg-archival-900, .theme-indigo .bg-archival-950 { background-color: #111B30; }

@@ -1,0 +1,28 @@
+# ARCHIVE — Top 20 Monumental & Editorial Typography Benchmarks
+**Document ID:** `RES-TOP-020-TYP`  
+**Date:** 14 October 2026  
+
+Typographic specifications analyzed for Agent 02 (Senior Product Designer) to inform font pairings and typographic hierarchy.
+
+| Ref ID | Title | Type Foundries / Designers | Typographic System | Hierarchy & Pairing Rationale |
+|---|---|---|---|---|
+| `REF-EDT-001` | **Fonts In Use: African Modernist Ephemera** | Fonts In Use & Nick Sherman | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-002` | **The Brand Identity: Contemporary Heritage Specials** | The Brand Identity Studio | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-003` | **Typewolf: Brutalist & Classical Editorial Showcase** | Jeremiah Shoaf | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-004` | **Eye Magazine: International Review of Graphic Design** | Eye Magazine Ltd & Simon Esterson | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-005` | **Klim Type Foundry: Historical Specimen Gazette** | Klim Type Foundry (Kris Sowersby) | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-006` | **Grilli Type In Depth: GT Sectra & GT Alpina Gazette** | Grilli Type (Noël Leu & Thierry Blancpain) | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-007` | **Pangram Pangram: Editorial Typographic Almanac** | Pangram Pangram Foundry (Mathieu Desjardins) | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-008` | **It's Nice That: Championing African Visual Storytellers** | It's Nice That & Creature London | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-009` | **IDEA Magazine: International Graphic Art and Typography Archive** | IDEA Magazine Tokyo | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-010` | **AIGA Eye on Design: Decolonizing Design History** | AIGA & Perrin Drumm | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-011` | **Displaay Type Foundry Interactive Specimen** | Martin Vácha & Displaay | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-012` | **Commercial Type: Classics of Modernist Letterpress** | Paul Barnes & Christian Schwartz | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-013` | **Slanted Publishers: African Typographic Explorations** | Slanted Publishers (Lars Harmsen) | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-014` | **Figma Editorial: The Typography of Protest & Memory** | Figma Design & Instrument | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-015` | **Form Magazine Nordic & International Archive** | Svensk Form & BankerWessel | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-016` | **Printed Matter: Artists' Books Digital Repository** | Printed Matter Inc. New York | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-017` | **Typotheque: Multi-Script Typographic Atlas** | Peter Biľak & Typotheque | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-018` | **Dinamo Typefaces: Early Computing & Editorial Specimen** | Dinamo (Johannes Breyer & Fabian Harb) | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-019` | **Archive of Graphic Design: Mid-Century Masterworks** | Victionary Studio Hong Kong | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |
+| `REF-EDT-020` | **The Gradient: Design, Technology, Culture Journal** | Walker Art Center & Emmet Byrne | Chiseled high-contrast display serif combined with tight geometric grotesque and monospace... | Display Monumental + Editorial Serif + Monospace Metadata |

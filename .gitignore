@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------- dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# ------------------------------------------------------------------ build output
+# Next.js application (track A)
+.next/
+out/
+build/
+dist/
+
+# --------------------------------------------------------------- debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------------------------------------------------- environment
+.env*.local
+.env
+
+# ------------------------------------------------------------------ editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------------------------------------------------- OS
+Thumbs.db
+.DS_Store
+
+# --------------------------------------------- scraped third-party assets
+# Downloaded copies of other people's CSS/JS/HTML (including minified bundles
+# from loc.gov, moma.org and nationalgallery.org.uk). Not ours to redistribute,
+# not needed to read any finding, and regenerable from the scripts beside them:
+#   artifacts/03-interactions/_evidence/{harvest,fetch-assets,extract}.ps1
+# The written evidence — findings.md, signatures.md, nav-a11y.md,
+# CAPTURE_CHECKLIST.md, capture-urls.txt — is tracked and stays in the repo.
+artifacts/03-interactions/_evidence/assets/
+artifacts/03-interactions/_evidence/pages/
+artifacts/03-interactions/_evidence/demos/

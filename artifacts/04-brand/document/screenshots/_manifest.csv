@@ -1,0 +1,5 @@
+file,url,status,bytes
+01-cover.png,http://localhost:10002/f/artifacts/04-brand/document/index.html,ok,87443
+02-direction-a-states.png,http://localhost:10002/f/artifacts/04-brand/document/index.html,ok,126657
+03-direction-a-markers.png,http://localhost:10002/f/artifacts/04-brand/document/index.html,ok,113260
+04-recommendation.png,http://localhost:10002/f/artifacts/04-brand/document/index.html,ok,77197

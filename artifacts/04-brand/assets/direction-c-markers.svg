@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1540" width="1600" height="1540" role="img" aria-labelledby="tC2 dC2">
+  <title id="tC2">ARCHIVE — Direction C, The Signal: marker system</title>
+  <desc id="dC2">Marker specimen sheet. Shows four proposed discipline marks drawn as abstract geometry for this sheet alone, their size ladder from sixty-four to fourteen pixels, their four ink densities, a demonstration of the same marks re-ordered into three arrangements, and the binding guard that governs any meaning-bearing mark. The four marks are formal: they are not reproductions of nsibidi, uli or any documented Nigerian sign system, and they claim no meaning. Structure and behaviour only, not final artwork. No archival imagery, no gradients, no green.</desc>
+
+  <defs>
+    <pattern id="cDs60" patternUnits="userSpaceOnUse" width="4" height="4">
+      <circle cx="2" cy="2" r="1.72" fill="#E9E5DC"/>
+    </pattern>
+    <pattern id="cDs30" patternUnits="userSpaceOnUse" width="6" height="6">
+      <circle cx="3" cy="3" r="1.9" fill="#E9E5DC"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1540" fill="#0D0F14"/>
+
+  <text x="80" y="68" font-family="Archivo,'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="3" fill="#E9E5DC">DIRECTION C — THE SIGNAL · MARKERS</text>
+  <text x="80" y="96" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="13" fill="#8B857B">Four proposed discipline marks, their states, their re-ordering, and the guard that governs them. Structure and behaviour only.</text>
+  <line x1="80" y1="118" x2="1520" y2="118" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 01 the four marks -->
+  <text x="80" y="170" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8B857B">01 — THE FOUR DISCIPLINE MARKS · A PROPOSED MARKER VOCABULARY · DRAWN AS PURE GEOMETRY</text>
+  <text x="80" y="194" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8B857B">These four forms were drawn for this sheet. They reproduce no sign system, documentary or living, and they carry no claimed meaning.</text>
+
+  <rect x="80" y="230" width="340" height="240" fill="#0D0F14" stroke="#2A2E36" stroke-width="1"/>
+  <rect x="128" y="288" width="84" height="84" fill="none" stroke="#E9E5DC" stroke-width="3"/>
+  <circle cx="170" cy="330" r="6" fill="#E9E5DC"/>
+  <text x="100" y="418" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#E9E5DC">PHOTOGRAPHY — THE FRAME</text>
+  <text x="100" y="440" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">formal mark — no claimed meaning</text>
+
+  <rect x="440" y="230" width="340" height="240" fill="#0D0F14" stroke="#2A2E36" stroke-width="1"/>
+  <rect x="653" y="299" width="10" height="34" fill="#E9E5DC"/>
+  <rect x="675" y="285" width="10" height="62" fill="#E9E5DC"/>
+  <rect x="697" y="293" width="10" height="46" fill="#E9E5DC"/>
+  <text x="460" y="418" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#E9E5DC">MUSIC — THE FREQUENCY</text>
+  <text x="460" y="440" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">formal mark — no claimed meaning</text>
+
+  <rect x="800" y="230" width="340" height="240" fill="#0D0F14" stroke="#2A2E36" stroke-width="1"/>
+  <line x1="928" y1="297" x2="1012" y2="297" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="928" y1="319" x2="1012" y2="319" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="928" y1="341" x2="1012" y2="341" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="928" y1="363" x2="1012" y2="363" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="937" y1="288" x2="937" y2="372" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="959" y1="288" x2="959" y2="372" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="981" y1="288" x2="981" y2="372" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="1003" y1="288" x2="1003" y2="372" stroke="#E9E5DC" stroke-width="2"/>
+  <text x="820" y="418" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#E9E5DC">FASHION — THE WEAVE</text>
+  <text x="820" y="440" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">formal mark — no claimed meaning</text>
+
+  <rect x="1160" y="230" width="340" height="240" fill="#0D0F14" stroke="#2A2E36" stroke-width="1"/>
+  <rect x="1291" y="281" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1319" y="281" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1347" y="281" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1291" y="309" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1319" y="309" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1347" y="309" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1291" y="337" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1319" y="337" width="22" height="22" fill="#E9E5DC"/>
+  <rect x="1349" y="327" width="22" height="22" fill="#E9E5DC"/>
+  <text x="1180" y="418" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#E9E5DC">DESIGN — THE GRID</text>
+  <text x="1180" y="440" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">formal mark — no claimed meaning</text>
+
+  <line x1="80" y1="500" x2="1520" y2="500" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 02 behaviour -->
+  <text x="80" y="550" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8B857B">02 — MARK BEHAVIOUR · SIZE LADDER AND DENSITY STATES</text>
+  <text x="80" y="574" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#8B857B">Every state a mark is allowed to take. The weave is shown because it is the most fragile of the four.</text>
+
+  <text x="80" y="616" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8B857B">SIZE LADDER · 64 / 40 / 24 / 14 PX</text>
+
+  <line x1="110" y1="648" x2="174" y2="648" stroke="#E9E5DC" stroke-width="3"/>
+  <line x1="110" y1="669" x2="174" y2="669" stroke="#E9E5DC" stroke-width="3"/>
+  <line x1="110" y1="690" x2="174" y2="690" stroke="#E9E5DC" stroke-width="3"/>
+  <line x1="110" y1="711" x2="174" y2="711" stroke="#E9E5DC" stroke-width="3"/>
+  <line x1="125" y1="640" x2="125" y2="719" stroke="#E9E5DC" stroke-width="3"/>
+  <line x1="146" y1="640" x2="146" y2="719" stroke="#E9E5DC" stroke-width="3"/>
+  <line x1="167" y1="640" x2="167" y2="719" stroke="#E9E5DC" stroke-width="3"/>
+
+  <line x1="210" y1="672" x2="250" y2="672" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="210" y1="685" x2="250" y2="685" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="210" y1="698" x2="250" y2="698" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="210" y1="711" x2="250" y2="711" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="220" y1="664" x2="220" y2="719" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="233" y1="664" x2="233" y2="719" stroke="#E9E5DC" stroke-width="2"/>
+  <line x1="246" y1="664" x2="246" y2="719" stroke="#E9E5DC" stroke-width="2"/>
+
+  <line x1="286" y1="688" x2="310" y2="688" stroke="#E9E5DC" stroke-width="1.4"/>
+  <line x1="286" y1="696" x2="310" y2="696" stroke="#E9E5DC" stroke-width="1.4"/>
+  <line x1="286" y1="704" x2="310" y2="704" stroke="#E9E5DC" stroke-width="1.4"/>
+  <line x1="286" y1="712" x2="310" y2="712" stroke="#E9E5DC" stroke-width="1.4"/>
+  <line x1="292" y1="682" x2="292" y2="719" stroke="#E9E5DC" stroke-width="1.4"/>
+  <line x1="301" y1="682" x2="301" y2="719" stroke="#E9E5DC" stroke-width="1.4"/>
+  <line x1="310" y1="682" x2="310" y2="719" stroke="#E9E5DC" stroke-width="1.4"/>
+
+  <line x1="346" y1="698" x2="360" y2="698" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="346" y1="705" x2="360" y2="705" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="346" y1="712" x2="360" y2="712" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="351" y1="694" x2="351" y2="719" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="358" y1="694" x2="358" y2="719" stroke="#E9E5DC" stroke-width="1"/>
+
+  <line x1="110" y1="719" x2="360" y2="719" stroke="#2A2E36" stroke-width="1"/>
+  <text x="142" y="740" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">64</text>
+  <text x="230" y="740" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">40</text>
+  <text x="298" y="740" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">24</text>
+  <text x="353" y="740" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">14</text>
+
+  <text x="480" y="660" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">At 14 px the weave closes up and reads as a grey block.</text>
+  <text x="480" y="684" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">That is the failure state. The mark is then redrawn with wider</text>
+  <text x="480" y="708" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">gaps rather than shipped as mush. Never faked with a blur.</text>
+
+  <text x="80" y="790" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" letter-spacing="2" fill="#8B857B">DENSITY STATES · SOLID / SCREEN / SOFT / OUTLINE</text>
+
+  <!-- 100% solid — segment weight 6 so every screened state below spans a full pattern period -->
+  <rect x="110" y="820" width="56" height="6" fill="#E9E5DC"/>
+  <rect x="110" y="837" width="56" height="6" fill="#E9E5DC"/>
+  <rect x="110" y="854" width="56" height="6" fill="#E9E5DC"/>
+  <rect x="116" y="812" width="6" height="56" fill="#E9E5DC"/>
+  <rect x="135" y="812" width="6" height="56" fill="#E9E5DC"/>
+  <rect x="154" y="812" width="6" height="56" fill="#E9E5DC"/>
+
+  <!-- 60% screen -->
+  <rect x="260" y="820" width="56" height="6" fill="url(#cDs60)"/>
+  <rect x="260" y="837" width="56" height="6" fill="url(#cDs60)"/>
+  <rect x="260" y="854" width="56" height="6" fill="url(#cDs60)"/>
+  <rect x="266" y="812" width="6" height="56" fill="url(#cDs60)"/>
+  <rect x="285" y="812" width="6" height="56" fill="url(#cDs60)"/>
+  <rect x="304" y="812" width="6" height="56" fill="url(#cDs60)"/>
+
+  <!-- 30% soft -->
+  <rect x="410" y="820" width="56" height="6" fill="url(#cDs30)"/>
+  <rect x="410" y="837" width="56" height="6" fill="url(#cDs30)"/>
+  <rect x="410" y="854" width="56" height="6" fill="url(#cDs30)"/>
+  <rect x="416" y="812" width="6" height="56" fill="url(#cDs30)"/>
+  <rect x="435" y="812" width="6" height="56" fill="url(#cDs30)"/>
+  <rect x="454" y="812" width="6" height="56" fill="url(#cDs30)"/>
+
+  <!-- 0% outline — hairline, the mark at zero density -->
+  <line x1="560" y1="823" x2="616" y2="823" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="560" y1="840" x2="616" y2="840" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="560" y1="857" x2="616" y2="857" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="569" y1="812" x2="569" y2="868" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="588" y1="812" x2="588" y2="868" stroke="#E9E5DC" stroke-width="1"/>
+  <line x1="607" y1="812" x2="607" y2="868" stroke="#E9E5DC" stroke-width="1"/>
+
+  <text x="138" y="890" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">100% SOLID</text>
+  <text x="288" y="890" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">60% SCREEN</text>
+  <text x="438" y="890" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">30% SOFT</text>
+  <text x="588" y="890" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">0% OUTLINE</text>
+
+  <text x="700" y="836" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">The same rule as the wordmark: a mark is never identified by colour.</text>
+  <text x="700" y="860" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">Era is the only thing that changes its density. One ink, four states.</text>
+
+  <line x1="80" y1="910" x2="1520" y2="910" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 03 re-ordering -->
+  <text x="80" y="950" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8B857B">03 — RE-ORDERING · THE SAME VOCABULARY, A NEW ARRANGEMENT · THE ULI PRINCIPLE</text>
+  <text x="80" y="974" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">Cited: "The motifs and symbols in Uli usually remain consistent however, it is the ordering of the design elements that challenge</text>
+  <text x="80" y="992" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">the ingenuity of traditional artists" — https://en.wikipedia.org/wiki/Uche_Okeke. A fixed vocabulary, re-ordered: that is the mechanic.</text>
+
+  <rect x="80" y="1012" width="440" height="150" fill="#0D0F14" stroke="#2A2E36" stroke-width="1"/>
+  <circle cx="120" cy="1052" r="7" fill="#E9E5DC"/>
+  <rect x="212" y="1045" width="14" height="14" fill="#E9E5DC"/>
+  <line x1="312" y1="1040" x2="312" y2="1064" stroke="#E9E5DC" stroke-width="4"/>
+  <path d="M402,1038 L416,1052 L402,1066 L388,1052 Z" fill="none" stroke="#E9E5DC" stroke-width="2.5"/>
+  <path d="M114,1088 L128,1088 M121,1081 L121,1095" stroke="#E9E5DC" stroke-width="2.5"/>
+  <rect x="214" y="1096" width="14" height="14" fill="#E9E5DC"/>
+  <circle cx="312" cy="1096" r="7" fill="#E9E5DC"/>
+  <rect x="398" y="1089" width="14" height="14" fill="#E9E5DC"/>
+  <line x1="114" y1="1124" x2="114" y2="1148" stroke="#E9E5DC" stroke-width="4"/>
+  <path d="M402,1129 L416,1143 L402,1157 L388,1143 Z" fill="none" stroke="#E9E5DC" stroke-width="2.5"/>
+  <path d="M214,1129 L228,1129 M221,1122 L221,1136" stroke="#E9E5DC" stroke-width="2.5"/>
+  <line x1="312" y1="1126" x2="312" y2="1150" stroke="#E9E5DC" stroke-width="4"/>
+
+  <rect x="560" y="1012" width="440" height="150" fill="#0D0F14" stroke="#2A2E36" stroke-width="1"/>
+  <circle cx="620" cy="1050" r="7" fill="#E9E5DC"/>
+  <rect x="754" y="1090" width="14" height="14" fill="#E9E5DC"/>
+  <line x1="898" y1="1038" x2="898" y2="1062" stroke="#E9E5DC" stroke-width="4"/>
+  <path d="M654,1114 L668,1114 M661,1107 L661,1121" stroke="#E9E5DC" stroke-width="2.5"/>
+
+  <rect x="1040" y="1012" width="440" height="150" fill="#0D0F14" stroke="#2A2E36" stroke-width="1"/>
+  <polyline points="1090,1130 1170,1066 1250,1116 1330,1052 1410,1108 1460,1058" fill="none" stroke="#E0523B" stroke-width="1.5"/>
+  <circle cx="1090" cy="1130" r="7" fill="#E9E5DC"/>
+  <rect x="1163" y="1059" width="14" height="14" fill="#E9E5DC"/>
+  <line x1="1250" y1="1103" x2="1250" y2="1127" stroke="#E9E5DC" stroke-width="4"/>
+  <path d="M1323,1045 L1337,1059 L1323,1073 L1309,1059 Z" fill="none" stroke="#E9E5DC" stroke-width="2.5"/>
+  <path d="M1403,1101 L1417,1101 M1410,1094 L1410,1108" stroke="#E9E5DC" stroke-width="2.5"/>
+  <circle cx="1460" cy="1058" r="7" fill="#E9E5DC"/>
+
+  <text x="300" y="1186" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" letter-spacing="1.4" fill="#8B857B">ORDER 01 — DENSE</text>
+  <text x="780" y="1186" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" letter-spacing="1.4" fill="#8B857B">ORDER 02 — SPARSE</text>
+  <text x="1260" y="1186" text-anchor="middle" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" letter-spacing="1.4" fill="#8B857B">ORDER 03 — TRANSMISSION</text>
+
+  <line x1="80" y1="1210" x2="1520" y2="1210" stroke="#2A2E36" stroke-width="1"/>
+
+  <!-- 04 the guard -->
+  <text x="80" y="1250" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#8B857B">04 — THE BINDING GUARD · PRINTED ON THE SHEET, NOT BURIED IN THE GUIDELINES</text>
+  <rect x="80" y="1268" width="1440" height="176" fill="#0D0F14" stroke="#E0523B" stroke-width="1"/>
+  <text x="110" y="1302" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" font-weight="700" fill="#E9E5DC">ANY MARK THAT CARRIES A MEANING MUST STATE ITS SOURCE, ITS PEOPLE AND ITS LIVING DESCENDANTS ON THE PAGE.</text>
+  <text x="110" y="1326" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="11" fill="#E0523B">OTHERWISE IT IS CAPTIONED:  [FORMAL MARK — NO DOCUMENTED MEANING CLAIMED]</text>
+  <text x="110" y="1362" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">The four marks on this sheet are formal. They claim nothing. Nothing here reproduces nsibidi, uli or any documented Nigerian sign system.</text>
+  <text x="110" y="1386" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">Nsibidi is cited, not used: "a system of symbols or proto-writing developed by the Ejagham people in the cross river region of Nigeria",</text>
+  <text x="110" y="1410" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">circa 400 AD – present, with documented descendant systems Anaforuana (Cuba) and Veve (Haiti). Source: https://en.wikipedia.org/wiki/Nsibidi</text>
+  <text x="110" y="1434" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">Using a living, meaning-bearing sign system as interface furniture is the exact failure mode this guard exists to prevent.</text>
+
+  <line x1="80" y1="1466" x2="1520" y2="1466" stroke="#2A2E36" stroke-width="1"/>
+  <text x="80" y="1496" font-family="'Space Mono','IBM Plex Mono',Consolas,'Courier New',monospace" font-size="10" fill="#8B857B">Specimen, not final artwork. Structure and behaviour only — no archival imagery, no gradients, no green, no discipline colour.</text>
+</svg>
